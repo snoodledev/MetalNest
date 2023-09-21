@@ -24,11 +24,24 @@ public class FPOcclusion : MonoBehaviour
     [SerializeField]
     private LayerMask OcclusionLayer;
 
+    private float f_Occlusion;
+    private float occlusionLerp;
+    [SerializeField] private float fadeSpeed = 0.3f;
+
+    [Header("Distance Gizmo")]
+    [SerializeField] private float MinDistance = 1;
+    [SerializeField]/* [Range(0f, 100f)]*/ private float MaxDistance = 20;
     private bool AudioIsVirtual;
-    private float MaxDistance;
     private float ListenerDistance;
     private float lineCastHitCount = 0f;
     private Color colour;
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, MinDistance);
+        Gizmos.DrawWireSphere(transform.position, MaxDistance);
+    }
 
     private void Start()
     {
@@ -52,11 +65,10 @@ public class FPOcclusion : MonoBehaviour
         if (!AudioIsVirtual && pb == PLAYBACK_STATE.PLAYING && ListenerDistance <= MaxDistance)
         {
             OccludeBetween(transform.position, Listener.transform.position);
-            //Debug.Log("SUCCESS. LISTENER @ " + ListenerDistance);
-            //Debug.Log("MAX " + MaxDistance);
         }
 
         lineCastHitCount = 0f;
+        transform.position += new Vector3(0f, 0f, 0.001f);
     }
 
     private void OccludeBetween(Vector3 sound, Vector3 listener)
@@ -133,18 +145,14 @@ public class FPOcclusion : MonoBehaviour
             Debug.DrawLine(Start, End, colour);
     }
 
-    private float f_Occlusion;
-    private float occlusionLerp;
-    [SerializeField] private float fadeSpeed = 0.3f;
 
     private void SetParameter()
     {
         // 58:20 video explanation
-        //Audio.setParameterByName("Occlusion", lineCastHitCount / 11);
         Audio.getParameterByName("Occlusion", out f_Occlusion);
         occlusionLerp = Mathf.Lerp(f_Occlusion, lineCastHitCount / 11, fadeSpeed);
         Audio.setParameterByName("Occlusion", occlusionLerp);
 
-        Debug.Log(occlusionLerp);
+        //Debug.Log(occlusionLerp);
     }
 }
