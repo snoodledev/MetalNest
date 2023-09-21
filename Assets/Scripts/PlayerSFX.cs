@@ -20,7 +20,7 @@ public class PlayerSFX : MonoBehaviour
     [Header("Playback Settings")]
     [SerializeField] private float stepDistance = 2.0f;
     [SerializeField] private float rayDistance = 1.2f;
-    [SerializeField] private float startRunningTime = 0.3f;
+    //[SerializeField] private float startRunningTime = 0.3f;
     [SerializeField] private string jumpInputName;
     public string[] materialTypes;
     [HideInInspector] public int defaultMaterialValue = 0;
