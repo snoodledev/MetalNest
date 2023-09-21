@@ -9,7 +9,6 @@ public class FPOcclusion : MonoBehaviour
     [Header("FMOD Event")]
     [SerializeField]
     public EventReference Event;
-    private string SelectAudio;
     private EventInstance Audio;
     private EventDescription AudioDes;
     [SerializeField] private StudioListener Listener;
@@ -33,26 +32,29 @@ public class FPOcclusion : MonoBehaviour
 
     private void Start()
     {
-        Audio = RuntimeManager.CreateInstance(SelectAudio);
+        Audio = RuntimeManager.CreateInstance(Event);
         RuntimeManager.AttachInstanceToGameObject(Audio, GetComponent<Transform>(), GetComponent<Rigidbody>());
         Audio.start();
         Audio.release();
 
-        AudioDes = RuntimeManager.GetEventDescription(SelectAudio);
-        AudioDes.getMinMaxDistance(out float MinDistance, out float Maxdistance);
-
+        AudioDes = RuntimeManager.GetEventDescription(Event);
+        AudioDes.getMinMaxDistance(out float MinDistance, out float MaxDistanceTemp);
+        MaxDistance = MaxDistanceTemp;
         Listener = FindObjectOfType<StudioListener>();
-        Debug.Log(Listener);
     }
 
     private void FixedUpdate()
     {
-        Audio.isVirtual(out AudioIsVirtual);
-        Audio.getPlaybackState(out pb);
+        Audio.isVirtual(out AudioIsVirtual); 
+        Audio.getPlaybackState(out pb); 
         ListenerDistance = Vector3.Distance(transform.position, Listener.transform.position);
 
         if (!AudioIsVirtual && pb == PLAYBACK_STATE.PLAYING && ListenerDistance <= MaxDistance)
+        {
             OccludeBetween(transform.position, Listener.transform.position);
+            //Debug.Log("SUCCESS. LISTENER @ " + ListenerDistance);
+            //Debug.Log("MAX " + MaxDistance);
+        }
 
         lineCastHitCount = 0f;
     }
@@ -131,8 +133,18 @@ public class FPOcclusion : MonoBehaviour
             Debug.DrawLine(Start, End, colour);
     }
 
+    private float f_Occlusion;
+    private float occlusionLerp;
+    [SerializeField] private float fadeSpeed = 0.3f;
+
     private void SetParameter()
     {
-        Audio.setParameterByName("Occlusion", lineCastHitCount / 11);
+        // 58:20 video explanation
+        //Audio.setParameterByName("Occlusion", lineCastHitCount / 11);
+        Audio.getParameterByName("Occlusion", out f_Occlusion);
+        occlusionLerp = Mathf.Lerp(f_Occlusion, lineCastHitCount / 11, fadeSpeed);
+        Audio.setParameterByName("Occlusion", occlusionLerp);
+
+        Debug.Log(occlusionLerp);
     }
 }
