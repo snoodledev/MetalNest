@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{70073744-df31-443e-9baf-e7e3429f92a8}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>sfx_player_footstep_metal-5.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.84210416666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd5f95b4-b279-4c71-849b-e9cd5458bf64}</destination>
+		</relationship>
+	</object>
+</objects>

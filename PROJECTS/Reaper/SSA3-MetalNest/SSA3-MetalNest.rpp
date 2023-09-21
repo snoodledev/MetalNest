@@ -1,0 +1,2654 @@
+<REAPER_PROJECT 0.1 "6.64/win64" 1695123092
+  <NOTES 0 2
+  >
+  UNDO_FTS 1695123063
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 2
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 5246 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 123.0049997234368
+  ZOOM 4.61122669082947 0 0
+  VZOOMEX 4 205
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Audio" ""
+  <RECORD_CFG
+    ZXZhdxgAAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\FMOD\MetalNest\Assets
+  RENDER_PATTERN $region
+  RENDER_FMT 0 2 48000
+  RENDER_1X 0
+  RENDER_RANGE 5 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 8
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    dmdnbwAAAD8AgAAAAIAAAAAgAAAAAAEAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 -1 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 24 52 655 408
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    <VST "VST: ReaLimit limiter (Cockos)" realimit.dll 0 "" 1919708532<565354726C6D747265616C696D697400> ""
+      dG1scu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAMAAAAAEAAAAAABAA
+      AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAD+fduMQw8Y/
+      AFByb2dyYW0gMQAQAAAA
+    >
+    PRESETNAME "Program 1"
+    FLOATPOS 0 0 0 0
+    FXID {8F7030FE-AE09-4D9C-9669-73699051775E}
+    WAK 0 0
+  >
+  <MASTERPLAYSPEEDENV
+    EGUID {7CB01C8D-A7A1-4AF4-99D6-0763627202DC}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {068FDBCA-9B81-4E1A-980F-23C612D923FC}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+    PT 0.000000000000 120.0000000000 1
+  >
+  MARKER 1 0 sfx_startup 1 0 1 R {53B6312D-CEB1-4B73-BBA2-070E02D6BB65}
+  <REGIONRENDER 1
+    TRACK {23A51500-3CB3-4D52-AF1C-31B2B19A4056}
+  >
+  MARKER 1 3.5 "" 1 0 1 R
+  MARKER 2 3.70938600949012 sfx_player_footstep_vent-1 1 0 1 R {7EEE23D6-A0AD-47B2-A2C1-69A38901465A}
+  <REGIONRENDER 2
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 2 4.55782952783831 "" 1 0 1 R
+  MARKER 3 4.58811410941863 sfx_player_footstep_vent-2 1 0 1 R {247422DD-0BEB-47F9-8FBB-8A4A983E7B6F}
+  <REGIONRENDER 3
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 3 5.43021907500082 "" 1 0 1 R
+  MARKER 4 5.48655669630149 sfx_player_footstep_vent-3 1 0 1 R {F82AFE2F-06A1-4490-A9BD-AFD34CBB79AC}
+  <REGIONRENDER 4
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 4 6.32866166188368 "" 1 0 1 R
+  MARKER 5 6.40117874718463 sfx_player_footstep_vent-4 1 0 1 R {A912FB77-107B-477D-BE21-20F90F083248}
+  <REGIONRENDER 5
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 5 7.24328371276682 "" 1 0 1 R
+  MARKER 6 7.29634913802288 sfx_player_footstep_vent-5 1 0 1 R {18B776E0-C8B5-4FDC-903B-2BC9129A59D5}
+  <REGIONRENDER 6
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 6 8.13845410360507 "" 1 0 1 R
+  MARKER 9 8.66041830501443 sfx_player_footstep_metal-1 1 0 1 R {68D9B579-B454-46BE-BA48-8EFA75B4418B}
+  <REGIONRENDER 9
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 9 9.50886182336262 "" 1 0 1 R
+  MARKER 10 9.61952943805541 sfx_player_footstep_metal-2 1 0 1 R {9CC3E62C-BD74-4C4B-85DB-2B0B63BA0466}
+  <REGIONRENDER 10
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 10 10.4616344036376 "" 1 0 1 R
+  MARKER 11 10.55022246345072 sfx_player_footstep_metal-3 1 0 1 R {E9B6D90B-74C7-4A77-893D-398342F2E07A}
+  <REGIONRENDER 11
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 11 11.39232742903291 "" 1 0 1 R
+  MARKER 12 11.51643812340311 sfx_player_footstep_metal-4 1 0 1 R {A7BA571A-CBA7-4E8C-88E9-AD74B109CFAB}
+  <REGIONRENDER 12
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 12 12.3585430889853 "" 1 0 1 R
+  MARKER 13 12.44713114879843 sfx_player_footstep_metal-5 1 0 1 R {889C9F4C-D196-4D75-8CE4-8236E6E80FD7}
+  <REGIONRENDER 13
+    TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+  >
+  MARKER 13 13.28923611438062 "" 1 0 1 R
+  MARKER 7 31.68971711764969 amb_int_venthum 1 0 1 R {3BE9A76B-06AD-4D3B-AA62-7ED58ABE6E0B}
+  <REGIONRENDER 7
+    TRACK {04B00F87-445E-44F0-8AE7-D064AC3605F5}
+  >
+  MARKER 7 55.06003457796714 "" 1 0 1 R
+  MARKER 8 56.0399883855683 amb_mid_electricbuzz 1 0 1 R {2D0F085E-82DC-486E-9198-D0176D90DBD9}
+  <REGIONRENDER 8
+    TRACK {0BEE677E-B34A-4639-9443-7A58D1CD5CEC}
+  >
+  MARKER 8 123.0049997234368 "" 1 0 1 R
+  MARKER 14 127.28710772882472 amb_int_fridgeverb 13 0 1 R {FC27A375-AA1D-45B8-A04E-CFA918142D33}
+  MARKER 14 189.2518148486123 "" 13 0 1 R
+  <PROJBAY
+    ITEM 1 "H:\HDD Documents\FL Studio\Content\Samples\[ My Field Recordings\ND_23-08-16_010 fridge freezer hum buzz ambience noise.wav" "ND_23-08-16_010 fridge freezer hum buzz ambience noise.wav"
+    ITEM 1 "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg" 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    ITEM 1 "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2018\Soundrangers - Industrial Ambience\cryogenic_laboratory_ambience_loop_02.wav" cryogenic_laboratory_ambience_loop_02.wav
+  >
+  <TRACK {FE611731-F1B8-40E1-8ABF-1E744D9923FB}
+    NAME SFX
+    PEAKCOL 24638120
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FE611731-F1B8-40E1-8ABF-1E744D9923FB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {23A51500-3CB3-4D52-AF1C-31B2B19A4056}
+    NAME startup
+    PEAKCOL 24638120
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {23A51500-3CB3-4D52-AF1C-31B2B19A4056}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58D8DAD1-C398-4624-91C2-F3B70C58EE04}
+      IID 1
+      NAME "23-08-28-exp_boinkus retro digital bootup opening jingle.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFFE2208-81B5-4B60-8505-11A3E82923E9}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\! CUSTOM\Experimence\23-08-28-exp_boinkus retro digital bootup opening jingle.wav"
+      >
+    >
+  >
+  <TRACK {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+    NAME footsteps
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: OrilRiver reverb (Denis Tihanov)" OrilRiver.dll 0 "" 1953983342<D6FAE8EBF87044EF9AAB360BB521FC19> ""
+        bmt3dO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAtwAAAAEAAAAAABAA
+        pwAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAA8D+amZmZmZm5PwAAAAAAAPA/1bpMBjcR2D+amZmZmZnJP5qZmZmZmek/mpmZmZmZ6T+RQw6b2DfsP9hl5JiCVNo/
+        AAAAAAAAAACwkf4W9wHhPwAAAMCjcM0/AAAAAPxtzj8AAAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADgPwIBAAAAAAAzMzMzMzPTP5ZDi2zn+9k/
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A22E95D7-D287-4145-BB3C-463551C72CE4}
+      WAK 0 0
+    >
+  >
+  <TRACK {88E67C39-6243-4C1F-9403-3D0479F3F645}
+    NAME LOW
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {88E67C39-6243-4C1F-9403-3D0479F3F645}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.70938600949012
+      SNAPOFFS 0
+      LENGTH 0.42666666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.039554 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      YPOS 0 0.015625 0
+      IGUID {58AA2D41-8381-4AE6-ABFD-EE9509E370FE}
+      IID 58
+      NAME "FOOTSTEP - Metal Board Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -29.53 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DB5CAFF-9DA0-47D6-ABCA-977956708307}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Board Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.60439741200305
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.058777 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A828604-086D-4316-81C5-218DE94DFA69}
+      IID 62
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BC5090E-17E9-45CE-A876-6BFA0DA04633}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.50283999888591
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.047183 0 1 0 0 0
+      FADEOUT 1 0.001464 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {90CBDF54-E484-4249-9297-0A8048175F1C}
+      IID 67
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.939303 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -0.390849609375 -1 0 0.0025
+      CHANMODE 0
+      GUID {7BAEDED2-1ED4-45A0-847E-FA3E5D4E9FFB}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.41746204976905
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.23808 0 1 0 0 0
+      FADEOUT 0 0.019365 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6FAD6BD1-74A0-4764-8D26-646F9C4241A3}
+      IID 73
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.925574 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -1.6896251953125 -1 0 0.0025
+      CHANMODE 0
+      GUID {CE5CF99D-EAC1-403A-980E-B26FFD64D156}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.3126324406073
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 0 0.23161 0 0 0 0 0
+      FADEOUT 0 0.018482 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B0EB4504-E3A1-4F39-BF16-2C5C7B5806F8}
+      IID 79
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.920522 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -0.69756408984375 -1 0 0.0025
+      CHANMODE 0
+      GUID {4B4925DA-F271-4178-9755-82C7F4CE418A}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.66041830501443
+      SNAPOFFS 0
+      LENGTH 0.42666666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.106968 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      YPOS 0 0.015625 0
+      IGUID {023A54FA-1EA8-4D58-AB82-06344268F838}
+      IID 16
+      NAME "FOOTSTEP - Metal Board Run Barefoot Male - 17.wav"
+      VOLPAN 0.451856 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -29.53 -1 0 0.0025
+      CHANMODE 0
+      GUID {107B6B1E-2FF6-48FF-9623-7C428E38341B}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Board Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.63581274063983
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.058777 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A3A59C7E-1B9F-487B-827D-9E48194BA02A}
+      IID 29
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.451856 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E21460A-D4B9-424D-88C1-823368F495C4}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.56650576603514
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.159284 0 1 0 0 0
+      FADEOUT 1 0.001464 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {794C9DD3-BA44-4581-9346-7E9F992E1272}
+      IID 41
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.42443 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -0.390849609375 -1 0 0.0025
+      CHANMODE 0
+      GUID {5469C264-0B15-45A3-9DAC-FC01FF50A6F5}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.53272142598753
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.23808 0 1 0 0 0
+      FADEOUT 0 0.019365 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2387D13-EA5F-4534-BA3E-0A473A8E42BD}
+      IID 50
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.418226 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -1.6896251953125 -1 0 0.0025
+      CHANMODE 0
+      GUID {A07BEE10-13ED-4FC1-A07B-0ABE7338AF0D}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.46341445138285
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 0 0.089545 0 0 0 0 0
+      FADEOUT 0 0.018482 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {148D00F1-D169-4EB8-9A95-A6DFFA5109FF}
+      IID 19
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 0.415943 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -0.69756408984375 -1 0 0.0025
+      CHANMODE 0
+      GUID {3611A29D-43ED-454C-A08E-673CD2DF2DC7}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.97520241647427
+      SNAPOFFS 0
+      LENGTH 0.512
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {2EBA43AC-9002-49AF-BAB1-4A59FCCAABBA}
+      IID 5
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A556EC42-0AB9-41EF-AAA1-6DD97BE1104D}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 14.48720241646216
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {22EA569B-FC81-4F0D-86D0-E94C5F1B2973}
+      IID 6
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {138D1432-DF75-4950-8754-C889E99F507E}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 14.83386908314124
+      SNAPOFFS 0
+      LENGTH 0.29866666666669
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {CC1B008E-DA64-4A74-968A-8F7D89296D4D}
+      IID 7
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 15.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C081906E-A466-4FDF-961F-5221C2AD5249}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 15.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.17090068867829
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {361F0400-2277-404C-912D-E3CAD96CE8AE}
+      IID 9
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {44F67147-5317-4CBF-BFE1-B115DEF7F6DD}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.4429006886755
+      SNAPOFFS 0
+      LENGTH 0.40533333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {B20A8A41-AABC-4235-A928-25B99F68601C}
+      IID 10
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 14.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {029220D0-BBD2-482B-91B8-BA89416A7748}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 14.wav"
+      >
+    >
+    <ITEM
+      POSITION 15.84823402197499
+      SNAPOFFS 0
+      LENGTH 0.39466666666669
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {0DCC1952-C477-407B-BC43-D37C443201FD}
+      IID 11
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {173F5BD6-D98C-40B7-A263-5890B6DBCE45}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.29377256263179
+      SNAPOFFS 0
+      LENGTH 0.77866666666664
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {5845E6C6-6BFC-41CC-B060-30116F33F9C2}
+      IID 8
+      NAME "FOOTSTEP - Metal Plate Land Barefoot Male - 1.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {063BC83A-D60F-4071-92C7-514F94B00571}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Land Barefoot Male - 1.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.14120193292765
+      SNAPOFFS 0
+      LENGTH 0.2733082652511
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {183305B0-9FE2-4345-807E-6DA228DCED39}
+      IID 23
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.616595 0 1 -1
+      SOFFS 5.02422771666947
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5B133BE7-13E6-43B7-9C16-83E0A2053000}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 17.41451019817874
+      SNAPOFFS 0
+      LENGTH 0.86046853841305
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {003A2386-8F4E-4DEC-9D7B-3DAE403B4868}
+      IID 23
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.616595 0 1 -1
+      SOFFS 5.29753598192057
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB050589-2DAD-459A-9C23-B7DEBE6502D5}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.27497873659179
+      SNAPOFFS 0
+      LENGTH 11.66230316222826
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {46CB61F2-C964-49E7-8112-4E15C4ADB509}
+      IID 23
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.616595 0 1 -1
+      SOFFS 6.15800452033365
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {875EDAF7-BD99-427B-8DF4-F70527B1E431}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+    >
+  >
+  <TRACK {8EEF4A7C-892F-48C3-A9A2-8EC44DCA6795}
+    NAME MID
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8EEF4A7C-892F-48C3-A9A2-8EC44DCA6795}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.72297784639522
+      SNAPOFFS 0
+      LENGTH 0.33066666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.055029 0 1 0 0 0
+      FADEOUT 2 0.275637 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {4634C84E-C1D9-40BC-B8B0-9F5DAF140002}
+      IID 59
+      NAME "FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF5DE2C7-189C-4FB8-AC65-3695F53EDA4B}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.60170594632374
+      SNAPOFFS 0
+      LENGTH 0.33066666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 2 0.285131 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {B6C820E7-6034-497E-9603-7A63992865C3}
+      IID 63
+      NAME "FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB9B3F24-F84B-42FA-AEF3-EDAF670E4BE2}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.497839978393
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.045858 0 2 0 1 1
+      FADEOUT 2 0.221047 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {FD69D372-B694-4920-8940-99DACDE06EC6}
+      IID 68
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.275423 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -11.73 -1 0 0.0025
+      CHANMODE 0
+      GUID {B55BFAA0-1CBD-40BE-905E-F2DA0808E91A}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.41246202927614
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.043607 0 2 0 1 1
+      FADEOUT 1 0.20211 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D8A0CF20-3EE6-4824-8953-D2E8886B91DD}
+      IID 74
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.265852 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -10.758397265625 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D8AB97C-4725-4076-8126-88C5152D6D0A}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.30763242011439
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.159225 0 2 0 1 1
+      FADEOUT 0 0.112775 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {007ADA7E-3375-4B87-AF96-D826F37DAEC2}
+      IID 80
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.314608 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.0310672578125 -1 0 0.0025
+      CHANMODE 0
+      GUID {8211FB86-0FBB-45FD-916B-C3DDDC9BF1BC}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.67401014191953
+      SNAPOFFS 0
+      LENGTH 0.33066666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.138803 0 1 0 0 0
+      FADEOUT 2 0.191864 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {13D5C667-782C-4A09-8429-F27E28873F10}
+      IID 18
+      NAME "FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74DB655F-0AA7-4179-B418-73C1066C2033}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.63312127496052
+      SNAPOFFS 0
+      LENGTH 0.33066666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.148799 0 1 0 0 0
+      FADEOUT 2 0.181868 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {26AFA4F7-F7CE-427A-9A67-E11689ABE373}
+      IID 30
+      NAME "FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5BB5FB9-BF1B-46B9-9AD4-C4F54DE2CE26}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Run Barefoot Male - 17.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.56150574554223
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.113809 0 2 0 1 1
+      FADEOUT 2 0.158191 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {4226F32D-4279-4088-85E4-C668BD4A7558}
+      IID 42
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.275423 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -11.73 -1 0 0.0025
+      CHANMODE 0
+      GUID {92E4F946-89BD-4CBE-B878-34CF88AEBE33}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.52772140549462
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.111653 0 2 0 1 1
+      FADEOUT 1 0.160347 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D435FB3E-8238-47C7-B951-CC7EC9E5FAC3}
+      IID 51
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.265852 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -20.938397265625 -1 0 0.0025
+      CHANMODE 0
+      GUID {0D73D7E3-6481-481A-B9ED-AADEC27B26EB}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.45841443088994
+      SNAPOFFS 0
+      LENGTH 0.272
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.159225 0 2 0 1 1
+      FADEOUT 0 0.112775 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3AD16F65-6E02-4B91-8FCE-033B94EB2585}
+      IID 39
+      NAME "FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      VOLPAN 0.314608 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.0310672578125 -1 0 0.0025
+      CHANMODE 0
+      GUID {EAA3C6CA-2D2C-47AD-A240-901BDF5DBEEF}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Run Barefoot Male - 12.wav"
+      >
+    >
+  >
+  <TRACK {E2437A05-DF62-405C-8767-1E21A0269E6E}
+    NAME ""
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E2437A05-DF62-405C-8767-1E21A0269E6E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 5.49212677350999
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0082628E-0E4B-4148-B6BE-595C6D3D71CB}
+      IID 69
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.17378 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -12.39 -1 0 0.0025
+      CHANMODE 0
+      GUID {69155A8E-D078-4321-939D-BBA0363ADD1E}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.40674882439313
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.009043 0 1 0 0 0
+      FADEOUT 1 0.022206 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2E20A5DE-7B7E-4D7C-B198-E40A36EDC6B0}
+      IID 75
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.176667 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -12.996863671875 -1 0 0.0025
+      CHANMODE 0
+      GUID {0CD4221C-210F-4E10-AF1D-14EED1A53B06}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.30191921523138
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.271506 0 1 0 0 0
+      FADEOUT 1 0.034485 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C04D741D-E099-4EC8-B79C-6634E7D19D1B}
+      IID 81
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.111355 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.69596786718751 -1 0 0.0025
+      CHANMODE 0
+      GUID {1B235A22-E198-42C1-A093-D34FD5C2B75B}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.55579254065922
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5F27A9E7-C569-407D-B39A-D125C18FF012}
+      IID 43
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.17378 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -12.39 -1 0 0.0025
+      CHANMODE 0
+      GUID {9062808A-A764-4706-8C34-9A17A5D87970}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.52200820061161
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.092129 0 1 0 0 0
+      FADEOUT 1 0.022206 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {75BEE5C0-1632-4331-8019-653C0E798B17}
+      IID 52
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.176667 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -13.55686367187499 -1 0 0.0025
+      CHANMODE 0
+      GUID {E296239D-6803-4834-9996-EC4D765BD528}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.45270122600693
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.271506 0 1 0 0 0
+      FADEOUT 1 0.034485 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B914AAB-6832-4C71-B865-D093B166DED6}
+      IID 40
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.111355 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.69596786718751 -1 0 0.0025
+      CHANMODE 0
+      GUID {EAE4ECF6-6FFC-4DBF-9B1F-7A0C4DDA0102}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+    >
+  >
+  <TRACK {4AFABCC8-62F3-4BF8-97BF-8CB2DFD29DE5}
+    NAME HI
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4AFABCC8-62F3-4BF8-97BF-8CB2DFD29DE5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+        cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+        776t3g3wrd4AAAA/05hFP0qftD5tcqw+t23bPgAAAD4AAIA/AAAAP+5jnD4AAAA/LtiiPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+        jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+        AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+        AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+        AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+        AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+        AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+        AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+        AAAAAA==
+        RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+      >
+      PRESETNAME "Default Setting"
+      FLOATPOS 0 0 0 0
+      FXID {4B22D7C4-2A2C-41A8-A91E-CC6F6E1637EF}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 3.71146902837674
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.155872 0 1 0 0 0
+      FADEOUT 4 0.430795 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {7BF4384F-854F-41C3-B9FC-37B63FCBCED3}
+      IID 60
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -5.03 -1 0 0.0025
+      CHANMODE 0
+      GUID {01BDD80A-DED8-4EEE-85F6-B6BCD3A55F56}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.59019712830526
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.102237 0 4 0 1 1
+      FADEOUT 4 0.48443 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {97FA7EB8-B8E8-48AF-B802-186639F4911F}
+      IID 64
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.98 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5BFF836-2DF1-49BB-8883-A576450E8CE7}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.48863971518812
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 3 0.034677 0 3 0 -1 -1
+      FADEOUT 4 0.55199 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {C7CB147A-1C79-4190-B189-708D0F6B9921}
+      IID 70
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.93333 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -9.34948125 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E1053C1-F1F9-4597-BDA2-1D72EB99AD32}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.42055466638618
+      SNAPOFFS 0
+      LENGTH 0.39213321825136
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 2 0.029951 0 2 0 1 1
+      FADEOUT 4 0.352316 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {9F8B33AF-2D08-4C61-AB18-4F14A8DAAD92}
+      IID 76
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.907592 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -28.993815109375 -1 0 0.0025
+      CHANMODE 0
+      GUID {4B624624-A35C-4821-A1D9-8B6600870BC5}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.31572505722443
+      SNAPOFFS 0
+      LENGTH 0.39213321825136
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.139329 0 1 0 0 0
+      FADEOUT 4 0.131665 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {907FE0B0-3ED2-4B1D-86CF-DE4F7C4DD7D0}
+      IID 82
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.871508 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -26.88499674968741 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC6B1C99-FEF7-451F-93FD-1F8A48602F9A}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.66250132390105
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.155872 0 1 0 0 0
+      FADEOUT 4 0.430795 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {7F05BE1F-56EB-4C2E-89A4-0CBD618B0F8F}
+      IID 17
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 -5.03 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3D2CDAA-9C27-4208-9A33-22661B17B647}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.62161245694204
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 4 0.102237 0 4 0 1 1
+      FADEOUT 4 0.48443 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {8A0FB7C2-EB5F-40B6-A028-D4C4A36CE4FE}
+      IID 31
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -10.98 -1 0 0.0025
+      CHANMODE 0
+      GUID {9736A0EE-8A61-442C-9CCE-5D0E1D8889D5}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.55230548233735
+      SNAPOFFS 0
+      LENGTH 0.58666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 3 0.173484 0 3 0 -1 -1
+      FADEOUT 4 0.413183 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {92C5C547-2757-4BE8-8D75-21A05A9AC9F1}
+      IID 44
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.93333 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -9.34948125 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2B9EDA8-0A6C-416E-960B-42C43AAE6368}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.53581404260466
+      SNAPOFFS 0
+      LENGTH 0.39213321825136
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 0 0.078323 0 0 0 0 0
+      FADEOUT 4 0.283526 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {EA396E9D-D552-45C9-B291-A1D51B35D5AC}
+      IID 53
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.907592 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -28.993815109375 -1 0 0.0025
+      CHANMODE 0
+      GUID {EAC9F333-B1CC-470B-A9FE-7A95450721EC}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.466507068
+      SNAPOFFS 0
+      LENGTH 0.39213321825136
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.139329 0 1 0 0 0
+      FADEOUT 4 0.131665 0 4 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {CB623544-7447-45A1-9770-AF4FC8611D72}
+      IID 12
+      NAME "FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      VOLPAN 0.871508 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -26.88499674968741 -1 0 0.0025
+      CHANMODE 0
+      GUID {9420C155-443C-4C4C-8C23-2D81CA4B17E8}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Plate Walk Barefoot Male - 3.wav"
+      >
+    >
+  >
+  <TRACK {6CD00509-C29B-4A60-AD00-5921633FF152}
+    NAME ""
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6CD00509-C29B-4A60-AD00-5921633FF152}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 4.59635133402077
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9FDD10F0-FA33-4704-BCC8-147333C30FE6}
+      IID 65
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.42658 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 1.68 -1 0 0.0025
+      CHANMODE 0
+      GUID {AF130605-C7E2-4286-8D20-0C37BC41EDE2}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 5.49479392090363
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.017862 0 1 0 0 0
+      FADEOUT 0 0.001788 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4FDD25E-D8AD-466D-8A07-0A9C7049AD8E}
+      IID 71
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.421331 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 1.895694140625 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D5405C1-EEEA-460E-B770-100FC9E4651F}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 6.40941597178677
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.029223 0 1 0 0 0
+      FADEOUT 0 0.002653 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4741E457-5FD1-4C59-81B8-0C51EFCBF4FC}
+      IID 77
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.168963 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 1.93664975781251 -1 0 0.0025
+      CHANMODE 0
+      GUID {27630311-393D-44F7-9E5E-9D755DA94257}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 7.30458636262502
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.291796 0 1 0 0 0
+      FADEOUT 0 0.0062 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {81671804-801B-42ED-B778-04B0C660FB4B}
+      IID 83
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.229616 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -20.21428555578124 -1 0 0.0025
+      CHANMODE 0
+      GUID {9915221F-F201-4D40-97B3-D808AD494B2A}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 9.62776666265755
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D9901056-5BB7-42DD-B701-AC3C44737E7F}
+      IID 32
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.42658 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 1.68 -1 0 0.0025
+      CHANMODE 0
+      GUID {F1732770-E96B-4CE3-9FC6-87BF6CB0842B}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 10.55845968805286
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.237994 0 1 0 0 0
+      FADEOUT 0 0 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {467487E7-A681-4521-9997-5CE27C782342}
+      IID 45
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.421331 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 1.475694140625 -1 0 0.0025
+      CHANMODE 0
+      GUID {C345A11B-87D2-41ED-845E-8A686E9D7625}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 11.52467534800525
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.029223 0 1 0 0 0
+      FADEOUT 0 0.002653 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {464B647F-FA42-4911-B449-F762EE2487FA}
+      IID 54
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.168963 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 1.93664975781251 -1 0 0.0025
+      CHANMODE 0
+      GUID {F14B90CD-58CE-4D64-AEE8-A3FCFE682820}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 12.45536837340057
+      SNAPOFFS 0
+      LENGTH 0.34666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.291796 0 1 0 0 0
+      FADEOUT 0 0.0062 0 0 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2B242316-217A-4EFA-8BE1-BF7D7EC0D7DA}
+      IID 20
+      NAME "FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      VOLPAN 0.229616 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 -20.21428555578124 -1 0 0.0025
+      CHANMODE 0
+      GUID {81DBFBA3-A988-4830-83EC-58E111838880}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\SONNISS GDC\2015\Timothy McHugh -  Barefoot on Metal\FOOTSTEP - Metal Grill Walk Barefoot Male - 13.wav"
+      >
+      <TAKEFX
+        WNDRECT 616 314 400 536
+        SHOW 0
+        LASTSEL 1
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/dXU+P7AFuz5tcqw+t23bPgAAAD4AAIA/AAAAP46inz4AAAA/2YLNPiVJkj4AAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {2492865D-8EED-41FC-B147-BEB5598B13F5}
+        WAK 0 0
+        BYPASS 0 0 0
+        <VST "VST: kHs Ring Mod (Kilohearts)" "kHs Ring Mod.dll" 0 "" 1802728045<5653546B73726D6B68732072696E6720> ""
+          bXJza+5e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAACwIAAABAAAAAAAQAA==
+          BgAAABMEAAABAAAAAAAAAAAAAAABAQAAAAEAAABY3zZDAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAA
+          AAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAD8////DwAAAFNpbmUgT3NjaWxsYXRvcg==
+          AFByb2dyYW0gMQAQAAAA
+        >
+        PRESETNAME "Program 1"
+        FLOATPOS 0 0 0 0
+        FXID {6F783A5F-D244-43AD-8A9C-A16531327281}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {4982281B-899E-47B9-91DC-0FB5CD43B1B1}
+    NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+    PEAKCOL 25821047
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -2
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {4982281B-899E-47B9-91DC-0FB5CD43B1B1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: OrilRiver reverb (Denis Tihanov)" OrilRiver.dll 0 "" 1953983342<D6FAE8EBF87044EF9AAB360BB521FC19> ""
+        bmt3dO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAtwAAAAEAAAAAABAA
+        pwAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAQLmU6z+amZmZmZm5PwAAAAAAAPA/AAAA4Og2zj+amZmZmZnJP5qZmZmZmek/mpmZmZmZ6T+RQw6b2DfsPwAAAIAUrtc/
+        AAAAIK5H0T8AAAAADYndPwAAAAAAAOA/AAAA4MoD1D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADgPwIBAAAAAAAzMzMzMzPTP5ZDi2zn+9k/
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A63ABFD9-9DA4-4E6D-814E-E4584277A359}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 3.73231490655503
+      SNAPOFFS 0
+      LENGTH 0.81540309888227
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.132478 0 1 0 0 0
+      FADEOUT 1 0.63965 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0E6E2AB-1D9B-42A6-AFD8-EC478FF1DD7B}
+      IID 61
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.616595 0 1 -1
+      SOFFS 5.34260142145138
+      PLAYRATE 1 0 -4.36 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD49E198-FDC2-49B1-8C82-555BF115C3F4}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+      <TAKEFX
+        WNDRECT 127 214 986 637
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/TLgoPgAAAD9uwdY+JUmSPgAAAD4AAIA/AAAAP4GLCj+f9Ak/bXKsPrdt2z4AAAA+AACAPwAAgD+F1G0/AAAAP7AF2z4lSRI/AAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {7EE81723-C2E3-4D05-A61F-FF2B93C11566}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 4.604404006023
+      SNAPOFFS 0
+      LENGTH 0.81551136481329
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.243436 0 1 0 0 0
+      FADEOUT 1 0.421245 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D8012D10-C98B-41E8-A9E4-A37C5BEDA543}
+      IID 66
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.586126 -0.040109 1 -1
+      SOFFS 5.29753598192057
+      PLAYRATE 1 0 -4.57626445312501 -1 0 0.0025
+      CHANMODE 0
+      GUID {F1DC43CD-A726-4A6D-867A-3DE27F89941F}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+      <TAKEFX
+        WNDRECT 24 52 655 408
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/t81uPQAAAD+tquo+JUmSPgAAAD4AAIA/AAAAP0uHIz8LtuA+bXKsPrdt2z4AAAA+AACAPwAAgD+F1G0/AAAAP7AF2z4lSRI/AAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {7EE81723-C2E3-4D05-A61F-FF2B93C11566}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 5.50284659290586
+      SNAPOFFS 0
+      LENGTH 0.81551136481329
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.264337 0 1 0 0 0
+      FADEOUT 1 0.347778 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F1B03820-6878-4DA8-A517-F8143EAB518C}
+      IID 72
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.60469 -0.040109 1 -1
+      SOFFS 7.02458013754446
+      PLAYRATE 1 0 -14.49834874218741 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF61E7CD-A91B-4E68-858B-B1052D7FA707}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+      <TAKEFX
+        WNDRECT 24 52 655 408
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/t81uPQAAAD+tquo+JUmSPgAAAD4AAIA/AAAAP0uHIz8LtuA+bXKsPrdt2z4AAAA+AACAPwAAgD+F1G0/AAAAP7AF2z4lSRI/AAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {7EE81723-C2E3-4D05-A61F-FF2B93C11566}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 6.417468643789
+      SNAPOFFS 0
+      LENGTH 0.81551136481329
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 0 0.238718 0 0 0 0 0
+      FADEOUT 1 0.392116 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E48C6409-A064-4455-A78C-F4D7D1AC5244}
+      IID 78
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.627294 -0.040109 1 -1
+      SOFFS 6.15537722030783
+      PLAYRATE 1 0 -13.65929742703117 -1 0 0.0025
+      CHANMODE 0
+      GUID {FE4A8E9B-C197-4262-B5BF-5C4C97CF992E}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+      <TAKEFX
+        WNDRECT 24 52 655 408
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/t81uPQAAAD+tquo+JUmSPgAAAD4AAIA/AAAAP0uHIz8LtuA+bXKsPrdt2z4AAAA+AACAPwAAgD+F1G0/AAAAP7AF2z4lSRI/AAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {7EE81723-C2E3-4D05-A61F-FF2B93C11566}
+        WAK 0 0
+      >
+    >
+    <ITEM
+      POSITION 7.31263903462725
+      SNAPOFFS 0
+      LENGTH 0.81551136481329
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 0 0.215053 0 0 0 0 0
+      FADEOUT 1 0.568934 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4A65F8D-E609-4671-9496-6ED233BFDCCE}
+      IID 84
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem"
+      VOLPAN 0.650839 -0.040109 1 -1
+      SOFFS 7.01710581937055
+      PLAYRATE 1 1 -14.68649739390925 -1 0 0.0025
+      CHANMODE 0
+      GUID {1B88DE16-2C51-43ED-81A9-4D8EC0FFCFAE}
+      <SOURCE WAVE
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+      >
+      <TAKEFX
+        WNDRECT 24 52 655 408
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VST "VST: FabFilter Pro-Q 2 (FabFilter)" "FabFilter Pro-Q 2.dll" 0 "" 1179726448<5653544651327066616266696C746572> ""
+          cDJRRu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAAQDAAAAAAAAAAAQAA==
+          776t3g3wrd4AAAA/t81uPQAAAD+tquo+JUmSPgAAAD4AAIA/AAAAP0uHIz8LtuA+bXKsPrdt2z4AAAA+AACAPwAAgD+F1G0/AAAAP7AF2z4lSRI/AAAAPgAAgD8AAIA/
+          jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/
+          AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/
+          AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/
+          AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+
+          AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/
+          AAAAPwAAAD8AAAAAAAAAPgAAgD8AAIA/jT8TPwAAAD8AAAA/AAAAAAAAAD4AAIA/AACAP40/Ez8AAAA/AAAAPwAAAAAAAAA+AACAPwAAgD+NPxM/AAAAPwAAAD8AAAAA
+          AAAAPgAAgD8AAAAAAACAPgAAAAAAAAA/AAAAPwAAAD8AAAAAAAAAAAAAAAAAAIA/AACAPwAAAAAAAAA/q6qqPgAAAD8AAEA/AAAAAAAAgD+rqio/AAAAAAAAAAAAAAA/
+          AAAAAA==
+          RGVmYXVsdCBTZXR0aW5nAERlZmF1bHQgU2V0dGluZwAQAAAA
+        >
+        PRESETNAME "Default Setting"
+        FLOATPOS 0 0 0 0
+        FXID {7EE81723-C2E3-4D05-A61F-FF2B93C11566}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {6631D048-DD3D-4694-8DB4-5FA8B1968DE4}
+    NAME AMBIENCE
+    PEAKCOL 22312636
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6631D048-DD3D-4694-8DB4-5FA8B1968DE4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {D747ECBB-DB5E-459D-9FAC-A7EF9AE09EE9}
+    NAME int
+    PEAKCOL 26515660
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D747ECBB-DB5E-459D-9FAC-A7EF9AE09EE9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {04B00F87-445E-44F0-8AE7-D064AC3605F5}
+    NAME venthum
+    PEAKCOL 26515660
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {04B00F87-445E-44F0-8AE7-D064AC3605F5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 31.68971711764969
+      SNAPOFFS 0
+      LENGTH 6.7766596515102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 6.629864 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 7
+      IGUID {8755896D-B629-436F-9547-914CC6A4D4EC}
+      IID 1
+      NAME venthum_REC-230918_1834.rpp
+      VOLPAN 1 0 1 -1
+      SOFFS 23.22352175438573
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6BEBE5D-81BA-40C2-84CC-39528610AE82}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects/venthum_REC-230918_1834.rpp"
+      >
+    >
+    <ITEM
+      POSITION 31.83651282358144
+      SNAPOFFS 0
+      LENGTH 23.2235217543857
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 6.629864 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 7
+      IGUID {FE42270F-2D63-4DC1-9BC2-9B3BF96E002A}
+      IID 1
+      NAME venthum_REC-230918_1834.rpp
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EDA0D284-EF89-4797-876F-D23E69383220}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects/venthum_REC-230918_1834.rpp"
+      >
+    >
+  >
+  <TRACK {059BE57A-D864-462D-AF6B-7F635A71E150}
+    NAME fridgeverb
+    PEAKCOL 26515660
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {059BE57A-D864-462D-AF6B-7F635A71E150}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 127.28710772882472
+      SNAPOFFS 0
+      LENGTH 26.34772071946288
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 18.251543 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      YPOS 0 0 0
+      IGUID {6DB7878E-8D68-4FDD-8CB1-5B0DC90420FF}
+      IID 1
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+      VOLPAN 1 0 1 -1
+      SOFFS 53.86852928053699
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FE01AA90-D1FF-4842-9AEC-2E2F056BDA9A}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+      >
+    >
+    <ITEM
+      POSITION 135.38328556807519
+      SNAPOFFS 0
+      LENGTH 53.8685292805371
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 18.251543 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      YPOS 0 0 0
+      IGUID {5C9EAA69-F1CA-425F-9ECB-A5A0986E65DB}
+      IID 1
+      NAME "452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18A777ED-99CF-4C2E-9B2D-717242B65DE9}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+      >
+    >
+  >
+  <TRACK {A819FFE0-CE34-4EC3-AB0E-3D5566F85F8C}
+    NAME mid
+    PEAKCOL 25583256
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A819FFE0-CE34-4EC3-AB0E-3D5566F85F8C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {0BEE677E-B34A-4639-9443-7A58D1CD5CEC}
+    NAME electricbuzz
+    PEAKCOL 25583256
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -2
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0BEE677E-B34A-4639-9443-7A58D1CD5CEC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 56.0399883855683
+      SNAPOFFS 0
+      LENGTH 20.6808905018263
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.001 13.016032 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 2
+      IGUID {2C48A0F8-AC4E-4DA8-AEA8-A49349D86F62}
+      IID 1
+      NAME electricbuzz_REC-230918_1928.rpp
+      VOLPAN 1.380384 0 1 -1
+      SOFFS 59.30015258207411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B510BE2B-0A14-45EA-9841-CF3DF4BDFE4E}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
+      >
+    >
+    <ITEM
+      POSITION 63.70484714136287
+      SNAPOFFS 0
+      LENGTH 59.30015258207389
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 13.016032 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      GROUP 2
+      IGUID {C3CFD346-AA90-46D1-A504-7904B7E8E2E3}
+      IID 1
+      NAME electricbuzz_REC-230918_1928.rpp
+      VOLPAN 1.380384 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13D98F10-E740-4771-81DB-E32FF0523642}
+      <SOURCE RPP_PROJECT
+        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
+      >
+    >
+  >
+  <EXTENSIONS
+    <SWSAUTOCOLOR
+      {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+      {FE611731-F1B8-40E1-8ABF-1E744D9923FB} 24638120 "" "" ""
+      {23A51500-3CB3-4D52-AF1C-31B2B19A4056} 24638120 "" "" ""
+      {6DA18479-7BF0-43AA-A300-C0AE2EEFDFD7} 25821047 "" "" ""
+      {88E67C39-6243-4C1F-9403-3D0479F3F645} 25821047 "" "" ""
+      {8EEF4A7C-892F-48C3-A9A2-8EC44DCA6795} 25821047 "" "" ""
+      {E2437A05-DF62-405C-8767-1E21A0269E6E} 25821047 "" "" ""
+      {4AFABCC8-62F3-4BF8-97BF-8CB2DFD29DE5} 25821047 "" "" ""
+      {6CD00509-C29B-4A60-AD00-5921633FF152} 25821047 "" "" ""
+      {4982281B-899E-47B9-91DC-0FB5CD43B1B1} 25821047 "" "" ""
+      {6631D048-DD3D-4694-8DB4-5FA8B1968DE4} 22312636 "" "" ""
+      {D747ECBB-DB5E-459D-9FAC-A7EF9AE09EE9} 26515660 "" "" ""
+      {04B00F87-445E-44F0-8AE7-D064AC3605F5} 26515660 "" "" ""
+      {059BE57A-D864-462D-AF6B-7F635A71E150} 26515660 "" "" ""
+      {A819FFE0-CE34-4EC3-AB0E-3D5566F85F8C} 25583256 "" "" ""
+      {0BEE677E-B34A-4639-9443-7A58D1CD5CEC} 25583256 "" "" ""
+    >
+  >
+>

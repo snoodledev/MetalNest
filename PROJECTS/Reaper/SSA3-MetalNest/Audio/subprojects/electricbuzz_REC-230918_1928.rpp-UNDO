@@ -1,0 +1,1557 @@
+<REAPER_UNDO_HISTORY 1695029709
+  CURPOS 28 
+  <UINF 1
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 0
+      SELECTION2 0 0
+      MASTER_SEL 0
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 2
+    <REAPER_PROJECT 0.1 /U/
+      MASTERAUTOMODE 0
+      MASTERTRACKHEIGHT 0 0
+      MASTERPEAKCOL 16576
+      MASTERMUTESOLO 0
+      MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1 0 0 0 -1 -1 0
+      MASTERHWOUT 0 0 1 0 0 0 0 -1
+      MASTER_NCH 2 2
+      MASTER_VOLUME 1 0 -1 -1 1
+      MASTER_PANMODE 3
+      MASTER_FX 1
+      MASTER_SEL 0
+    >
+  >
+  <UINF 3
+    <MASTERPLAYSPEEDENV
+      EGUID {DCE87246-EBEF-426E-88E8-39CF0F377854}
+      ACT 0 -1
+      VIS 0 1 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 0 -1 -1
+    >
+    <TEMPOENVEX
+      EGUID {092A94C9-FCE9-492B-8618-3E355592736D}
+      ACT 1 -1
+      VIS 1 0 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 1 -1 -1
+    >
+  >
+  <UINF 4
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0.00000000005446 57.80736246998656
+      SELECTION2 0.00000000005446 57.80736246998656
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {B0143A09-0BA8-4D86-95D5-687A42FB30BA}
+      MARKER 2 75.39778705861785 =END 0 0 1 R {DC849488-DEDE-432C-BA68-245617FFDD38}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 5
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 75.39778705861785
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 6
+    <MASTERPLAYSPEEDENV
+      EGUID {DCE87246-EBEF-426E-88E8-39CF0F377854}
+      ACT 0 -1
+      VIS 0 1 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 0 -1 -1
+    >
+    <TEMPOENVEX
+      EGUID {092A94C9-FCE9-492B-8618-3E355592736D}
+      ACT 0 -1
+      VIS 1 0 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 1 -1 -1
+    >
+  >
+  <UINF 7
+  >
+  <UINF 8
+    <TRACK {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC}
+      NAME "electricbuzz - subproject"
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+      REC 0 0 1 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0 -1 -1 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 9
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 52.86898651087373
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 52.86898651087373
+      SNAPOFFS 0
+      LENGTH 22.52880054774413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 10
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 52.86898651087373
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 52.86898651087373
+      SNAPOFFS 0
+      LENGTH 22.52880054774413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 11
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 52.86898651087373
+      SNAPOFFS 0
+      LENGTH 22.52880054774413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 4.26704 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 71.13074719408353
+      SNAPOFFS 0
+      LENGTH 52.86898651087358
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 4.26704 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 12
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 52.86898651087373
+      SNAPOFFS 0
+      LENGTH 22.52880054774413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 5.35135 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 70.04643702344201
+      SNAPOFFS 0
+      LENGTH 52.86898651087358
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 5.35135 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 13
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 52.86898651087373
+      SNAPOFFS 0
+      LENGTH 22.52880054774413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 5.35135 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 70.04643702344201
+      SNAPOFFS 0
+      LENGTH 52.86898651087358
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 5.35135 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 14
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 5.35135 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 17.17745051256828
+      SNAPOFFS 0
+      LENGTH 52.86898651087355
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 5.35135 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 15
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 5.35135 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 17.17745051256828
+      SNAPOFFS 0
+      LENGTH 52.86898651087355
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 5.35135 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 16
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 5.35135 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 17.17745051256828
+      SNAPOFFS 0
+      LENGTH 52.86898651087355
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 5.35135 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 17
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 18
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0.00000000005446 57.80736246998656
+      SELECTION2 0.00000000005446 57.80736246998656
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {B0143A09-0BA8-4D86-95D5-687A42FB30BA}
+      MARKER 2 66.95641145619395 =END 0 0 1 R {DC849488-DEDE-432C-BA68-245617FFDD38}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 19
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0.00000000005446 57.80736246998656
+      SELECTION2 0.00000000005446 57.80736246998656
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {B0143A09-0BA8-4D86-95D5-687A42FB30BA}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 20
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 21
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 66.96501872921328
+      SELECTION2 0 66.96501872921328
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {B0143A09-0BA8-4D86-95D5-687A42FB30BA}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 22
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 66.96501872921328
+      SELECTION2 0 66.96501872921328
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {D498BE10-284E-4B3D-A428-0E81FF72E50C}
+      MARKER 2 66.96501872921328 =END 0 0 1 R {F2651D01-39EF-42F0-92AE-B49E0AC7B371}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 23
+    <TRACK {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC}
+      NAME "electricbuzz - subproject"
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+      REC 0 0 1 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0 0 -1 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 24
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 25
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 22.52880054774412
+      SELECTION2 0 22.52880054774412
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {D498BE10-284E-4B3D-A428-0E81FF72E50C}
+      MARKER 2 66.96501872921328 =END 0 0 1 R {F2651D01-39EF-42F0-92AE-B49E0AC7B371}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 26
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 22.52880054774412
+      SELECTION2 0 22.52880054774412
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {6F97DD51-B6AC-4123-BD18-B48DE67B3240}
+      MARKER 2 22.52880054774412 =END 0 0 1 R {AD3FF89D-4132-45A6-B64A-8CF243DDEEB0}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 27
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 22.52880054774412
+      SELECTION2 0 22.52880054774412
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {74F82BC7-C794-4E6B-A456-C3C60E28DBEA}
+      MARKER 2 22.52880054774412 =END 0 0 1 R {B6C0C8CB-EE63-417A-8D83-16799F735D8A}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 28
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 66.96501872921328
+      SELECTION2 0 66.96501872921328
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {74F82BC7-C794-4E6B-A456-C3C60E28DBEA}
+      MARKER 2 22.52880054774412 =END 0 0 1 R {B6C0C8CB-EE63-417A-8D83-16799F735D8A}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 29
+    <REAPER_PROJECT 0.1 "6.64/win64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 120 4 4
+      PLAYRATE 1 0 0.25 4
+      SELECTION 0 66.96501872921328
+      SELECTION2 0 66.96501872921328
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {DED2EE89-9CF0-452D-B290-DB03CF9EE44F}
+      MARKER 2 66.96501872921328 =END 0 0 1 R {D12C7300-BA90-47D0-9858-F2E9EF486323}
+      <EXTENSIONS
+        <SWSAUTOCOLOR
+          {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+          {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+        >
+        <S&M_CYCLACTIONS
+          0 0 0 0
+        >
+      >
+    >
+  >
+  <UINF 30
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 31
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UINF 32
+    <ITEM {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 22.52880054774412
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.001 8.432768 1 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {0DD451B4-4536-448C-83B0-C4700E5DB361}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 52.86898651087373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F598B1B4-939A-4390-8107-18F221180B4B}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+    <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      POSITION 14.09603221833972
+      SNAPOFFS 0
+      LENGTH 52.86898651087356
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 8.432768 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+      IID 70
+      NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9CD067F4-A781-48AD-828F-71136A608158}
+      <SOURCE VORBIS
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+      >
+    >
+  >
+  <UENT `` 1695029298 1 2
+    FXCFG 0
+    FXENVCFG 0
+    TRACKENVCFG 3
+  >
+  <UENT `Import items in new subproject` 1695029299 4 2
+    TCFG 8
+    ITEMCFG 5
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Split items` 1695029352 4 2
+    TCFG 8
+    ITEMCFG 9
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029354 4 2
+    TCFG 8
+    ITEMCFG 10
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Move media items` 1695029354 4 2
+    TCFG 8
+    ITEMCFG 11
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Move media items` 1695029356 4 2
+    TCFG 8
+    ITEMCFG 12
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Marquee item selection` 1695029357 4 2
+    TCFG 8
+    ITEMCFG 13
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Move media items` 1695029358 4 2
+    TCFG 8
+    ITEMCFG 14
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029365 4 2
+    TCFG 8
+    ITEMCFG 15
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029366 4 2
+    TCFG 8
+    ITEMCFG 16
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Move media items` 1695029366 4 2
+    TCFG 8
+    ITEMCFG 17
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Move marker` 1695029379 18 2
+    TCFG 8
+    ITEMCFG 17
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Remove marker` 1695029381 19 2
+    TCFG 8
+    ITEMCFG 17
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Marquee item selection` 1695029382 19 2
+    TCFG 8
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Set time selection to items` 1695029384 21 2
+    TCFG 8
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `ReaScript: Run` 1695029387 22 2
+    TCFG 23
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029568 22 2
+    TCFG 23
+    ITEMCFG 24
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Set time selection to items` 1695029569 25 2
+    TCFG 23
+    ITEMCFG 24
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `ReaScript: Run` 1695029570 26 2
+    TCFG 23
+    ITEMCFG 24
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Marquee item selection` 1695029571 26 2
+    TCFG 23
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `ReaScript: Run` 1695029572 27 2
+    TCFG 23
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Set time selection to items` 1695029573 28 2
+    TCFG 23
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `ReaScript: Run` 1695029574 29 2
+    TCFG 23
+    ITEMCFG 20
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029576 29 2
+    TCFG 23
+    ITEMCFG 17
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029662 29 2
+    TCFG 23
+    ITEMCFG 24
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029663 29 2
+    TCFG 23
+    ITEMCFG 17
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Remove item fades` 1695029665 29 2
+    TCFG 23
+    ITEMCFG 30
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Change media item selection` 1695029695 29 2
+    TCFG 23
+    ITEMCFG 31
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+  <UENT `Remove item fades` 1695029697 29 2
+    TCFG 23
+    ITEMCFG 32
+    FREEZECFG 0
+    FXCFG 0 0
+    FXENVCFG 0 0
+    RECFXCFG 0
+    TRACKENVCFG 6 7
+  >
+# INCR
+# INCR
+CURPOS 37 
+<UINF 33
+  <REAPER_PROJECT 0.1 "6.64/win64" 0
+    PANMODE 3
+    CLEAR_COMP_GROUP
+    TEMPO 120 4 4
+    PLAYRATE 1 0 0.25 4
+    SELECTION 0 66.96501872921328
+    SELECTION2 0 66.96501872921328
+    MASTER_SEL 0
+    MARKER 1 0 =START 0 0 1 R {DED2EE89-9CF0-452D-B290-DB03CF9EE44F}
+    MARKER 2 66.96501872921328 =END 0 0 1 R {D12C7300-BA90-47D0-9858-F2E9EF486323}
+    <EXTENSIONS
+      <S&M_CYCLACTIONS
+        0 0 0 0
+      >
+    >
+  >
+>
+<UINF 34
+  <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    POSITION 14.09603221833972
+    SNAPOFFS 0
+    LENGTH 52.86898651087356
+    LOOP 1
+    ALLTAKES 0
+    FADEIN 1 0.001 0 1 0 0 0
+    FADEOUT 1 0 0 1 0 0 0
+    MUTE 0 0
+    SEL 0
+    IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    IID 70
+    NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    VOLPAN 1 0 1 -1
+    SOFFS 0
+    PLAYRATE 1 1 0 -1 0 0.0025
+    CHANMODE 0
+    GUID {9CD067F4-A781-48AD-828F-71136A608158}
+    <SOURCE VORBIS
+      FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+    >
+  >
+>
+<UINF 35
+  <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    POSITION 14.09603221833972
+    SNAPOFFS 0
+    LENGTH 52.86898651087356
+    LOOP 1
+    ALLTAKES 0
+    FADEIN 1 0.001 0 1 0 0 0
+    FADEOUT 1 0 0 1 0 0 0
+    MUTE 0 0
+    SEL 1
+    IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    IID 70
+    NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    VOLPAN 1 0 1 -1
+    SOFFS 0
+    PLAYRATE 1 1 0 -1 0 0.0025
+    CHANMODE 0
+    GUID {9CD067F4-A781-48AD-828F-71136A608158}
+    <SOURCE VORBIS
+      FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+    >
+  >
+>
+<UINF 36
+  <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    POSITION 0
+    SNAPOFFS 0
+    LENGTH 52.86898651087352
+    LOOP 1
+    ALLTAKES 0
+    FADEIN 1 0.001 0 1 0 0 0
+    FADEOUT 1 0 0 1 0 0 0
+    MUTE 0 0
+    SEL 1
+    IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    IID 70
+    NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    VOLPAN 1 0 1 -1
+    SOFFS 0
+    PLAYRATE 1 1 0 -1 0 0.0025
+    CHANMODE 0
+    GUID {9CD067F4-A781-48AD-828F-71136A608158}
+    <SOURCE VORBIS
+      FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+    >
+  >
+>
+<UINF 37
+  <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    POSITION 0
+    SNAPOFFS 0
+    LENGTH 91.60893338753209
+    LOOP 1
+    ALLTAKES 0
+    FADEIN 1 0.001 0 1 0 0 0
+    FADEOUT 1 0 0 1 0 0 0
+    MUTE 0 0
+    SEL 1
+    IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    IID 70
+    NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    VOLPAN 1 0 1 -1
+    SOFFS 0
+    PLAYRATE 1 1 0 -1 0 0.0025
+    CHANMODE 0
+    GUID {9CD067F4-A781-48AD-828F-71136A608158}
+    <SOURCE VORBIS
+      FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+    >
+  >
+>
+<UINF 38
+  <ITEM {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    POSITION 0
+    SNAPOFFS 0
+    LENGTH 79.98104132805118
+    LOOP 1
+    ALLTAKES 0
+    FADEIN 1 0.001 0 1 0 0 0
+    FADEOUT 1 0 0 1 0 0 0
+    MUTE 0 0
+    SEL 1
+    IGUID {0C774371-B955-46CF-AAF5-FF0CF9465952}
+    IID 70
+    NAME 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
+    VOLPAN 1 0 1 -1
+    SOFFS 0
+    PLAYRATE 1 1 0 -1 0 0.0025
+    CHANMODE 0
+    GUID {9CD067F4-A781-48AD-828F-71136A608158}
+    <SOURCE VORBIS
+      FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg"
+    >
+  >
+>
+<UINF 39
+  <REAPER_PROJECT 0.1 "6.64/win64" 0
+    PANMODE 3
+    CLEAR_COMP_GROUP
+    TEMPO 120 4 4
+    PLAYRATE 1 0 0.25 4
+    SELECTION 0 79.98104132805118
+    SELECTION2 0 79.98104132805118
+    MASTER_SEL 0
+    MARKER 1 0 =START 0 0 1 R {DED2EE89-9CF0-452D-B290-DB03CF9EE44F}
+    MARKER 2 66.96501872921328 =END 0 0 1 R {D12C7300-BA90-47D0-9858-F2E9EF486323}
+    <EXTENSIONS
+      <SWSAUTOCOLOR
+        {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+        {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+      >
+      <S&M_CYCLACTIONS
+        0 0 0 0
+      >
+    >
+  >
+>
+<UINF 40
+  <REAPER_PROJECT 0.1 "6.64/win64" 0
+    PANMODE 3
+    CLEAR_COMP_GROUP
+    TEMPO 120 4 4
+    PLAYRATE 1 0 0.25 4
+    SELECTION 0 79.98104132805118
+    SELECTION2 0 79.98104132805118
+    MASTER_SEL 0
+    MARKER 1 0 =START 0 0 1 R {DED2EE89-9CF0-452D-B290-DB03CF9EE44F}
+    <EXTENSIONS
+      <SWSAUTOCOLOR
+        {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+        {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+      >
+      <S&M_CYCLACTIONS
+        0 0 0 0
+      >
+    >
+  >
+>
+<UINF 41
+  <REAPER_PROJECT 0.1 "6.64/win64" 0
+    PANMODE 3
+    CLEAR_COMP_GROUP
+    TEMPO 120 4 4
+    PLAYRATE 1 0 0.25 4
+    SELECTION 0 79.98104132805118
+    SELECTION2 0 79.98104132805118
+    MASTER_SEL 0
+    MARKER 1 0 =START 0 0 1 R {799AE541-198A-4D1D-8C03-D89314D6B57C}
+    MARKER 2 79.98104132805118 =END 0 0 1 R {B8892023-6F00-4162-8E71-D1DF15445ACB}
+    <EXTENSIONS
+      <SWSAUTOCOLOR
+        {00000000-0000-0000-0000-000000000000} 0 "" "" ""
+        {E9E2278B-DDFA-4DFD-8CF5-DA6826F6A9CC} 0 "" "" ""
+      >
+      <S&M_CYCLACTIONS
+        0 0 0 0
+      >
+    >
+  >
+>
+<UENT `--- Session loaded ---` 1695030148 33 2
+  TCFG 23
+  ITEMCFG 32
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Delete items` 1695030154 33 2
+  TCFG 23
+  ITEMCFG 34
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Change media item selection` 1695030154 33 2
+  TCFG 23
+  ITEMCFG 35
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Move media items` 1695030154 33 2
+  TCFG 23
+  ITEMCFG 36
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Resize media items` 1695030157 33 2
+  TCFG 23
+  ITEMCFG 37
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Resize media items` 1695030162 33 2
+  TCFG 23
+  ITEMCFG 38
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Set time selection to items` 1695030170 39 2
+  TCFG 23
+  ITEMCFG 38
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `Remove marker` 1695030173 40 2
+  TCFG 23
+  ITEMCFG 38
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+<UENT `ReaScript: Run` 1695030175 41 2
+  TCFG 23
+  ITEMCFG 38
+  FREEZECFG 0
+  FXCFG 0 0
+  FXENVCFG 0 0
+  RECFXCFG 0
+  TRACKENVCFG 6 7
+>
+# INCR
+>
