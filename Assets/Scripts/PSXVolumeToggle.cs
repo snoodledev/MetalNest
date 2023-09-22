@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalVolumeToggle : MonoBehaviour
+public class PSXVolumeToggle : MonoBehaviour
 {
     [SerializeField] private GameObject HPSXRPVolume;
 

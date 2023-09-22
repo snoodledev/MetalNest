@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class LightsourceFlicker : MonoBehaviour
 {
-    public bool flickeringEnabled = false;
-    public Vector2 onRange = new Vector2(1f,5f);
-    public Vector2 offRange = new Vector2(0.1f,0.5f);
+    [SerializeField] private bool flickerEnabled = true;
+    [SerializeField] private Vector2 onRange = new Vector2(1f,5f);
+    [SerializeField] private Vector2 offRange = new Vector2(0.1f,0.5f);
 
-    private bool isFlickering = false;
+    private bool flickerOn = false;
     private float flickerDelay;
 
-    void Update()
+    //private LightsourceFlicker emitter;
+
+    //private void Start()
+    //{
+    //    emitter = GetComponent<LightsourceFlicker>();
+    //}
+
+    private void Update()
     {
-        if (!isFlickering)
+        if (flickerEnabled && !flickerOn)
         {
             StartCoroutine(LightsourceFlickering());
 
@@ -21,7 +28,7 @@ public class LightsourceFlicker : MonoBehaviour
 
         IEnumerator LightsourceFlickering()
         {
-            isFlickering = true;
+            flickerOn = true;
 
             this.gameObject.GetComponent<Light>().enabled = false;
             flickerDelay = Random.Range(offRange.x, offRange.y);
@@ -31,7 +38,7 @@ public class LightsourceFlicker : MonoBehaviour
             flickerDelay = Random.Range(onRange.x, onRange.y);
             yield return new WaitForSeconds(flickerDelay);
 
-            isFlickering = false;
+            flickerOn = false;
         }
     }
 }

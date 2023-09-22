@@ -73,9 +73,6 @@
 		<relationship name="modules">
 			<destination>{129e8789-81e2-4ef4-bd21-bbf527cf9297}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{409ffcc2-8e00-489a-bf51-3f8995a7d80d}</destination>
-		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{b8a884f9-d82c-4ace-a2a9-429e3c5865ce}">
 		<relationship name="preset">
@@ -101,10 +98,7 @@
 	<object class="MixerBusPanner" id="{5fe4c229-d032-4f13-bdf9-529208696daa}" />
 	<object class="SingleSound" id="{129e8789-81e2-4ef4-bd21-bbf527cf9297}">
 		<property name="length">
-			<value>1.0499999999999998</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.5</value>
+			<value>3.4999999999999987</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -125,20 +119,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{0d083829-ffec-4cf9-8ba7-a7da35c64672}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{409ffcc2-8e00-489a-bf51-3f8995a7d80d}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>1.05</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{f543d14f-6039-44d7-9a97-5de58031b878}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{6fb7a18d-ef97-4421-b40b-4bd3f212abfd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{082e2809-d993-488b-8bc4-27f629b6677c}">

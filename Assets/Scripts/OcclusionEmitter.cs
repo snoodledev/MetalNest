@@ -4,7 +4,7 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 
-public class FPOcclusion : MonoBehaviour
+public class OcclusionEmitter : MonoBehaviour
 {
     [Header("FMOD Event")]
     [SerializeField]
@@ -24,8 +24,8 @@ public class FPOcclusion : MonoBehaviour
     [SerializeField]
     private LayerMask OcclusionLayer;
 
-    private float f_Occlusion;
-    private float occlusionLerp;
+    private float f_Occlusion = 1f;
+    private float occlusionLerp = 1f;
     [SerializeField] private float fadeSpeed = 0.3f;
 
     [Header("Distance Gizmo")]
@@ -38,9 +38,9 @@ public class FPOcclusion : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, MinDistance);
-        Gizmos.DrawWireSphere(transform.position, MaxDistance);
+        //Gizmos.color = Color.yellow;
+        //Gizmos.DrawWireSphere(transform.position, MinDistance);
+        //Gizmos.DrawWireSphere(transform.position, MaxDistance);
     }
 
     private void Start()

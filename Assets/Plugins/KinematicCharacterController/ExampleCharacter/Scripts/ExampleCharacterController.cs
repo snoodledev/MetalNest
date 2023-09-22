@@ -524,13 +524,14 @@ namespace KinematicCharacterController.Examples
         }
 
 
-        // MY CUSTOM CRAP
+        // MY CUSTOM things
         void Update()
         {
             // sprint controls
             float currentSpeed = MaxStableMoveSpeed;
             float currentAirSpeed = MaxAirMoveSpeed;
-            if (Input.GetKey(sprintKey))
+            
+            if (Input.GetKey(sprintKey) && Motor.GroundingStatus.IsStableOnGround)
             {
                 MaxStableMoveSpeed = Mathf.Lerp(currentSpeed, sprintSpeed, speedEaseValue);
                 MaxAirMoveSpeed = Mathf.Lerp(currentSpeed, sprintAirSpeed, speedEaseValue);
@@ -542,10 +543,10 @@ namespace KinematicCharacterController.Examples
 
             // DEBUG
             // reset position
-            if (Input.GetKeyDown(resetKey))
-            {
-                transform.position = resetPos.transform.position;
-            }
+            //if (Input.GetKeyDown(resetKey))
+            //{
+            //    transform.position = resetPos.transform.position;
+            //}
         }
     }
 }
