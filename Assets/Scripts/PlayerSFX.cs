@@ -129,7 +129,7 @@ public class PlayerSFX : MonoBehaviour
 
     void PlayFootstep()
     {
-        FMOD.Studio.EventInstance footstep = FMODUnity.RuntimeManager.CreateInstance(JumpEventPath);
+        FMOD.Studio.EventInstance footstep = FMODUnity.RuntimeManager.CreateInstance(footstepsEventPath);
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(footstep, bodyTransform, GetComponent<Rigidbody>());
         footstep.setParameterByName(materialParameterName, f_materialValue);
         footstep.setParameterByName(speedParameterName, f_moveSpeed);

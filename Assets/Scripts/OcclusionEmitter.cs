@@ -68,7 +68,6 @@ public class OcclusionEmitter : MonoBehaviour
         }
 
         lineCastHitCount = 0f;
-        transform.position += new Vector3(0f, 0f, 0.001f);
     }
 
     private void OccludeBetween(Vector3 sound, Vector3 listener)
