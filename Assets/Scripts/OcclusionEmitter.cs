@@ -27,21 +27,19 @@ public class OcclusionEmitter : MonoBehaviour
     private float f_Occlusion = 1f;
     private float occlusionLerp = 1f;
     [SerializeField] private float fadeSpeed = 0.3f;
-
-    [Header("Distance Gizmo")]
-    [SerializeField] private float MinDistance = 1;
-    [SerializeField]/* [Range(0f, 100f)]*/ private float MaxDistance = 20;
     private bool AudioIsVirtual;
     private float ListenerDistance;
     private float lineCastHitCount = 0f;
     private Color colour;
+    [SerializeField] private float MaxDistance = 20;
+    //[SerializeField] private float MinDistance = 1;
 
-    void OnDrawGizmosSelected()
-    {
-        //Gizmos.color = Color.yellow;
-        //Gizmos.DrawWireSphere(transform.position, MinDistance);
-        //Gizmos.DrawWireSphere(transform.position, MaxDistance);
-    }
+    //void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.color = Color.yellow;
+    //    Gizmos.DrawWireSphere(transform.position, MinDistance);
+    //    Gizmos.DrawWireSphere(transform.position, MaxDistance);
+    //}
 
     private void Start()
     {

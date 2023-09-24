@@ -290,44 +290,7 @@ MonoBehaviour:
     m_Value: 0.039
     min: 0.001
     max: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: HPSXRP Volume Profile
-  m_EditorClassIdentifier: 
-  components:
-  - {fileID: 8498920037627748897}
-  - {fileID: -3237985735837774667}
-  - {fileID: -4260156192399625289}
-  - {fileID: -3057255543437025522}
-  - {fileID: 9210282942897258764}
-  - {fileID: -6709262423800116846}
-  - {fileID: -1046134595399392295}
---- !u!114 &8498920037627748897
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74f7b4b43d392da4aa0edc7aa47211ca, type: 3}
-  m_Name: QualityOverrideVolume
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  isPSXQualityEnabled:
-    m_OverrideState: 1
-    m_Value: 1
---- !u!114 &9210282942897258764
+--- !u!114 &-800863986067143697
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -448,3 +411,40 @@ MonoBehaviour:
   heightMaxLayer1:
     m_OverrideState: 1
     m_Value: 10
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: HPSXRP Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 8498920037627748897}
+  - {fileID: -3237985735837774667}
+  - {fileID: -4260156192399625289}
+  - {fileID: -3057255543437025522}
+  - {fileID: -6709262423800116846}
+  - {fileID: -1046134595399392295}
+  - {fileID: -800863986067143697}
+--- !u!114 &8498920037627748897
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f7b4b43d392da4aa0edc7aa47211ca, type: 3}
+  m_Name: QualityOverrideVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  isPSXQualityEnabled:
+    m_OverrideState: 1
+    m_Value: 1
