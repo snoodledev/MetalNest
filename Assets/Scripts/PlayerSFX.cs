@@ -31,8 +31,8 @@ public class PlayerSFX : MonoBehaviour
 
     private RaycastHit raycastHit;
     [SerializeField] private int f_materialValue; // value of material FMOD parameter
-    private int f_moveSpeed; // value of movespeed FMOD parameter
-    [SerializeField] private bool isTouchingGround;
+    private readonly int f_moveSpeed; // value of movespeed FMOD parameter
+    private bool isTouchingGround;
     private bool prevTouchingGround;
     private float timeSinceLastStep;
 
@@ -65,7 +65,7 @@ public class PlayerSFX : MonoBehaviour
 
 
         // JUMP & LAND
-        isTouchingGround = characterController.Motor.GroundingStatus.IsStableOnGround;
+        isTouchingGround = characterController.Motor.GroundingStatus.FoundAnyGround;
         if (isTouchingGround && Input.GetButtonDown(jumpInputName)) // if touching ground & jump button pressed (just jumped)
         {
             MaterialCheck();
