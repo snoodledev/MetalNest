@@ -107,9 +107,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de89c053dd1f473409185347210336bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flickeringEnabled: 0
-  onRange: {x: 0.05, y: 4}
-  offRange: {x: 0.01, y: 0.1}
+  flickerEnabled: 1
+  onRange: {x: 0.01, y: 3.5}
+  offRange: {x: 0.01, y: 0.15}
+  intensityRange: {x: 3, y: 7}
+  standardIntensityVariance: 0.2
 --- !u!114 &815498670260637800
 MonoBehaviour:
   m_ObjectHideFlags: 0

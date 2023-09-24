@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{1dab459c-b7ce-42d8-a725-e2b3f4d3f8d8}">
+		<property name="note" />
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>

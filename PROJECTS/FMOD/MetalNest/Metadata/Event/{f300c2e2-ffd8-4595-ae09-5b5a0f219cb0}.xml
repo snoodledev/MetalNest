@@ -61,12 +61,15 @@
 			<destination>{fd9ff892-179f-423f-bea0-ff269249204c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{625e1164-2cc0-409d-b84a-0a9b9283c3fc}</destination>
+			<destination>{6d165fa7-d3d7-4fef-b345-d72462bc7388}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{79c282ae-a2be-4438-a0f4-5304f26a3bc4}">
 		<property name="dopplerEnabled">
 			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>28</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{89e308e7-0074-4de8-a34f-36d58d69b950}" />

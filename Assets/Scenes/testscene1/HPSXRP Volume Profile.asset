@@ -52,7 +52,7 @@ MonoBehaviour:
     max: 1
   framebufferDither:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.458
     min: 0
     max: 1
   ditherSize:
@@ -65,7 +65,7 @@ MonoBehaviour:
     m_Value: 0
   drawDistance:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 1000
     min: 0
 --- !u!114 &-4260156192399625289
 MonoBehaviour:
@@ -86,18 +86,18 @@ MonoBehaviour:
     m_Value: 0
   bloom:
     m_OverrideState: 1
-    m_Value: 0.298
+    m_Value: 0
     min: 0
     max: 1
   grateMaskMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 5
   grateMaskTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
   grateMaskScale:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   scanlineSharpness:
     m_OverrideState: 1
     m_Value: 0
@@ -105,12 +105,12 @@ MonoBehaviour:
     max: 1
   imageSharpness:
     m_OverrideState: 1
-    m_Value: 0.594
+    m_Value: 0
     min: 0
     max: 1
   bloomSharpnessX:
     m_OverrideState: 1
-    m_Value: 0.065
+    m_Value: 0
     min: 0
     max: 1
   bloomSharpnessY:
@@ -120,7 +120,7 @@ MonoBehaviour:
     max: 1
   noiseIntensity:
     m_OverrideState: 1
-    m_Value: 0.039
+    m_Value: 0
     min: 0
     max: 1
   noiseSaturation:
@@ -140,17 +140,17 @@ MonoBehaviour:
     max: 1
   barrelDistortionX:
     m_OverrideState: 1
-    m_Value: 0.479
+    m_Value: 0
     min: 0
     max: 1
   barrelDistortionY:
     m_OverrideState: 1
-    m_Value: 0.574
+    m_Value: 0
     min: 0
     max: 1
   vignette:
     m_OverrideState: 1
-    m_Value: 0.52
+    m_Value: 0.588
     min: 0
     max: 1
 --- !u!114 &-3237985735837774667
@@ -215,7 +215,7 @@ MonoBehaviour:
     m_Value: 1
   bakedLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.8
     min: 0
   vertexColorLightingMultiplier:
     m_OverrideState: 1
