@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnvZoneData : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Main")]
+    public bool fogEnabled = true;
+    public float fogDistanceMin = 1f;
+    public float fogDistanceMax = 20f;
+    [Range(-1f, 1f)] public float falloffCurve = 0.2f;
+    public Color fogColor = new Color(0.29f, 0.29f, 0.29f);
+    public float fogLerpSpeed = 100f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Lightning")]
+    public bool lightningEnabled = false;
+    public Color fogLightningColor = new Color(0.29f, 0.29f, 0.29f);
 }

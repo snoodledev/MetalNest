@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 5269727055945906748}
   - component: {fileID: 2090771663895098610}
   - component: {fileID: 5241449947528439121}
+  - component: {fileID: 5955199492437984472}
   m_Layer: 0
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -314,12 +315,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a5181c49ee412042a1ede21dfcf0d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  v: {fileID: 0}
+  volume: {fileID: 0}
   minDistance: 1
   maxDistance: 20
   falloffCurve: 0.2
   fogColor: {r: 0.11372549, g: 0.11372549, b: 0.11372549, a: 1}
   lightningEnabled: 0
+--- !u!114 &5955199492437984472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241449947528439118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b64054f4508c04fa8ccc7b18362295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reverbSnapshot: 0
 --- !u!1 &5241459110051762680
 GameObject:
   m_ObjectHideFlags: 0
