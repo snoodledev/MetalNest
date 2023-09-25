@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{17949de9-fbd9-476e-b11a-a680f4ef6867}">
 		<property name="name">
-			<value>NonDeath</value>
+			<value>New Return</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c5f1ff90-b44f-401a-befc-32b3a7c61123}</destination>
