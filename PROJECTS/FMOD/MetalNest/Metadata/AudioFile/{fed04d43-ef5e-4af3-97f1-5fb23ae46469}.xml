@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fed04d43-ef5e-4af3-97f1-5fb23ae46469}">
+		<property name="assetPath">
+			<value>jinky inkies.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>61.276598639455784</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd5f95b4-b279-4c71-849b-e9cd5458bf64}</destination>
+		</relationship>
+	</object>
+</objects>
