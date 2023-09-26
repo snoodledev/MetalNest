@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2618174675736767922}
   m_Layer: 0
   m_Name: EnvZone
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,29 +71,6 @@ MonoBehaviour:
   fogDistanceMax: 20
   falloffCurve: 0.2
   fogColor: {r: 0.11372549, g: 0.11372549, b: 0.11372549, a: 1}
-  lightningEnabled: 0
   fogLerpSpeed: 0.25
-  fogFadeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  lightningEnabled: 0
+  fogLightningColor: {r: 0.29, g: 0.29, b: 0.29, a: 1}
