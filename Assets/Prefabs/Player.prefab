@@ -111,6 +111,7 @@ MonoBehaviour:
   speedParameterName: MoveSpeed
   jumpOrLandParameterName: JumpLand
   stepDistance: 2.5
+  runStepDistance: 6
   rayDistance: 1.2
   jumpInputName: Jump
   materialTypes:
@@ -120,6 +121,7 @@ MonoBehaviour:
   - Mesh
   - Concrete
   defaultMaterialValue: 0
+  isRunning: 0
   f_materialValue: 0
 --- !u!1 &5240615754990452536
 GameObject:
@@ -217,13 +219,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Motor: {fileID: 5269727055945906748}
   sprintKey: 304
+  isRunning: 0
   walkSpeed: 6
   sprintSpeed: 15
   walkAirSpeed: 10
   sprintAirSpeed: 20
   speedEaseValue: 0.01
-  resetKey: 114
-  resetPos: {fileID: 0}
   MaxStableMoveSpeed: 15
   StableMovementSharpness: 20
   OrientationSharpness: 10
@@ -321,6 +322,8 @@ MonoBehaviour:
   falloffCurve: 0.2
   fogColor: {r: 0.11372549, g: 0.11372549, b: 0.11372549, a: 1}
   lightningEnabled: 0
+  fogLightningColor: {r: 0.29, g: 0.29, b: 0.29, a: 1}
+  lerpSpeed: 0.05
 --- !u!114 &5955199492437984472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,7 +350,7 @@ GameObject:
   - component: {fileID: 5254423149874787308}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

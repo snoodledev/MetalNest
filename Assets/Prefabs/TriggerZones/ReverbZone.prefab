@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 2008261572
-      Data2: 1334068965
-      Data3: -1655225198
-      Data4: -66852595
-    Path: snapshot:/ReverbVent
+      Data1: 777240870
+      Data2: 1214524740
+      Data3: -1231437397
+      Data4: -140279600
+    Path: snapshot:/ReverbNone
   Event: 
   PlayEvent: 3
   StopEvent: 4

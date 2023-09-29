@@ -32,6 +32,7 @@ public class OcclusionEmitter : MonoBehaviour
     private float lineCastHitCount = 0f;
     private Color colour;
     [SerializeField] private float MaxDistance = 20;
+    [SerializeField][Range(0f, 3f)] private float pitch = 1f;
     //[SerializeField] private float MinDistance = 1;
 
     //void OnDrawGizmosSelected()
@@ -49,9 +50,10 @@ public class OcclusionEmitter : MonoBehaviour
         Audio.release();
 
         AudioDes = RuntimeManager.GetEventDescription(Event);
-        AudioDes.getMinMaxDistance(out float MinDistance, out float MaxDistanceTemp);
-        MaxDistance = MaxDistanceTemp;
+        //AudioDes.getMinMaxDistance(out float _, out float MaxDistanceTemp);
+        //MaxDistance = MaxDistanceTemp;
         Listener = FindObjectOfType<StudioListener>();
+        Audio.setProperty(EVENT_PROPERTY.MAXIMUM_DISTANCE, MaxDistance);
     }
 
     private void FixedUpdate()
@@ -66,6 +68,7 @@ public class OcclusionEmitter : MonoBehaviour
         }
 
         lineCastHitCount = 0f;
+        Audio.setPitch(pitch);
     }
 
     private void OccludeBetween(Vector3 sound, Vector3 listener)

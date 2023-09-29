@@ -46,13 +46,12 @@ namespace KinematicCharacterController.Examples
 
         [Header("Controls")]
         public KeyCode sprintKey;
+        public bool isRunning = false;
         public float walkSpeed = 6;
         public float sprintSpeed = 15; 
         public float walkAirSpeed = 10;
         public float sprintAirSpeed = 20;
         public float speedEaseValue = 0.01f;
-        public KeyCode resetKey;
-        public GameObject resetPos;
 
         [Header("Stable Movement")]
         public float MaxStableMoveSpeed = 6f;
@@ -530,8 +529,14 @@ namespace KinematicCharacterController.Examples
             // sprint controls
             float currentSpeed = MaxStableMoveSpeed;
             float currentAirSpeed = MaxAirMoveSpeed;
+
+            if (Input.GetKey(sprintKey))
+                isRunning = true;
+            else
+                isRunning = false;
             
-            if (Input.GetKey(sprintKey) && Motor.GroundingStatus.IsStableOnGround)
+            
+            if (isRunning && Motor.GroundingStatus.IsStableOnGround)
             {
                 MaxStableMoveSpeed = Mathf.Lerp(currentSpeed, sprintSpeed, speedEaseValue);
                 MaxAirMoveSpeed = Mathf.Lerp(currentSpeed, sprintAirSpeed, speedEaseValue);

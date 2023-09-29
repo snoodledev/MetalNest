@@ -19,11 +19,14 @@ public class PlayerSFX : MonoBehaviour
 
     [Header("Playback Settings")]
     [SerializeField] private float stepDistance = 2.0f;
+    [SerializeField] private float runStepDistance = 5.0f;
     [SerializeField] private float rayDistance = 1.2f;
     //[SerializeField] private float startRunningTime = 0.3f;
     [SerializeField] private string jumpInputName;
     public string[] materialTypes;
     [HideInInspector] public int defaultMaterialValue = 0;
+
+    [SerializeField] private bool isRunning = false;
 
     private float stepRandom; // random value for steps volume variation
     private Vector3 prevPos; // position in previous frame
@@ -31,7 +34,7 @@ public class PlayerSFX : MonoBehaviour
 
     private RaycastHit raycastHit;
     [SerializeField] private int f_materialValue; // value of material FMOD parameter
-    private readonly int f_moveSpeed; // value of movespeed FMOD parameter
+    private int f_moveSpeed; // value of movespeed FMOD parameter
     private bool isTouchingGround;
     private bool prevTouchingGround;
     private float timeSinceLastStep;
@@ -40,29 +43,52 @@ public class PlayerSFX : MonoBehaviour
 
     private void Start()
     {
-        stepRandom = Random.Range(0f, 0.5f);
+        stepRandom = Random.Range(0f, 0.2f);
         prevPos = transform.position;
         bodyTransform = characterController.gameObject.transform;
     }
 
     private void Update()
     {
-        // Debug.DrawRay(characterController.gameObject.transform.position, Vector3.down * rayDistance, Color.blue);
-        
+        isRunning = characterController.isRunning;
+        if (!isRunning)
+            f_moveSpeed = 0;
+        else if (isRunning)
+        {
+            if (f_moveSpeed == 0 && bodyTransform.position != prevPos)
+            {
+                f_moveSpeed = 1;
+                PlayFootstep();
+            } else
+            {
+                f_moveSpeed = 1;
+            }
+        }
+
         // FOOTSTEPS
         //timeSinceLastStep += Time.deltaTime; // keeps track of how long the game's been running (accounting for variable framerate)
         distanceTravelled += (bodyTransform.position - prevPos).magnitude; // gets distance player has travelled since last frame (for speed)
-        if (distanceTravelled >= stepDistance + stepRandom)
+        // walk
+        if (!isRunning && distanceTravelled >= stepDistance + stepRandom)
         {
             MaterialCheck();
             PlayFootstep();
             stepRandom = Random.Range(0f, 0.5f);
             distanceTravelled = 0f;
         }
+        // run
+        if (isRunning && distanceTravelled >= runStepDistance + stepRandom)
+        {
+            MaterialCheck();
+            PlayFootstep();
+            stepRandom = Random.Range(0f, 0.5f);
+            distanceTravelled = 0f;
+        }
+
         if (bodyTransform.position == prevPos)
             distanceTravelled = 0f;
-        prevPos = bodyTransform.position;
 
+        prevPos = bodyTransform.position;
 
         // JUMP & LAND
         isTouchingGround = characterController.Motor.GroundingStatus.FoundAnyGround;
@@ -135,6 +161,5 @@ public class PlayerSFX : MonoBehaviour
         footstep.setParameterByName(speedParameterName, f_moveSpeed);
         footstep.start();
         footstep.release();
-
     }
 }

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8732042395517326266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6206556463869503004}
+  - component: {fileID: 5867692331215948098}
+  m_Layer: 0
+  m_Name: Spot_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6206556463869503004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732042395517326266}
+  m_LocalRotation: {x: -0.00000040433585, y: 0.7071068, z: 0.00000022151282, w: 0.70710677}
+  m_LocalPosition: {x: -26.9, y: 4.4012794, z: -6.2786245}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5867692331215948098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732042395517326266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f623e66937e39b54c8bdb58f2bd9f950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    Guid:
+      Data1: -218053918
+      Data2: 1167458264
+      Data3: 1515915694
+      Data4: -1331945201
+    Path: event:/ambience/spot/mid_electricbuzz
+  Listener: {fileID: 0}
+  SoundOcclusionWidening: 1.4
+  PlayerOcclusionWidening: 1.4
+  OcclusionLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  fadeSpeed: 0.3
+  MaxDistance: 20
+  pitch: 1
