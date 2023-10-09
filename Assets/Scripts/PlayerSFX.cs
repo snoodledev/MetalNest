@@ -20,17 +20,19 @@ public class PlayerSFX : MonoBehaviour
     [Header("Playback Settings")]
     [SerializeField] private float stepDistance = 2.0f;
     [SerializeField] private float runStepDistance = 5.0f;
+    [SerializeField] private float landHeavyDistance = 20f;
     [SerializeField] private float rayDistance = 1.2f;
     //[SerializeField] private float startRunningTime = 0.3f;
     [SerializeField] private string jumpInputName;
     public string[] materialTypes;
     [HideInInspector] public int defaultMaterialValue = 0;
 
-    [SerializeField] private bool isRunning = false;
+    private bool isRunning = false;
 
     private float stepRandom; // random value for steps volume variation
     private Vector3 prevPos; // position in previous frame
     private float distanceTravelled; // distance travelled between this and last frame
+    private float distanceTravelledJump; // variant for landHeavy
 
     private RaycastHit raycastHit;
     [SerializeField] private int f_materialValue; // value of material FMOD parameter
@@ -68,6 +70,7 @@ public class PlayerSFX : MonoBehaviour
         // FOOTSTEPS
         //timeSinceLastStep += Time.deltaTime; // keeps track of how long the game's been running (accounting for variable framerate)
         distanceTravelled += (bodyTransform.position - prevPos).magnitude; // gets distance player has travelled since last frame (for speed)
+        distanceTravelledJump += (bodyTransform.position - prevPos).magnitude; // gets distance player has travelled since last frame (for speed)
         // walk
         if (!isRunning && distanceTravelled >= stepDistance + stepRandom)
         {
@@ -85,24 +88,37 @@ public class PlayerSFX : MonoBehaviour
             distanceTravelled = 0f;
         }
 
-        if (bodyTransform.position == prevPos)
-            distanceTravelled = 0f;
-
-        prevPos = bodyTransform.position;
-
         // JUMP & LAND
         isTouchingGround = characterController.Motor.GroundingStatus.FoundAnyGround;
         if (isTouchingGround && Input.GetButtonDown(jumpInputName)) // if touching ground & jump button pressed (just jumped)
         {
             MaterialCheck();
-            PlayJumpOrLand(true);
+            PlayJumpOrLand(0f);
         }
         if (!prevTouchingGround && isTouchingGround) // if started touching ground this frame (landed)
         {
             MaterialCheck();
-            PlayJumpOrLand(false);
+            if (distanceTravelledJump >= landHeavyDistance)
+            {
+                PlayJumpOrLand(2f); // play heavy land
+            }
+            else
+            {
+                PlayJumpOrLand(1f); // play regular land
+            }
         }
 
+        if (bodyTransform.position == prevPos)
+        {
+            distanceTravelled = 0f;
+            distanceTravelledJump = 0f;
+        }
+        if (isTouchingGround)
+        {
+            distanceTravelledJump = 0f;
+        }
+
+        prevPos = bodyTransform.position;
         prevTouchingGround = isTouchingGround; // update prevTouchingGround to be 1 frame behind isTouchingGround
 
     }
@@ -142,12 +158,13 @@ public class PlayerSFX : MonoBehaviour
     }
 
     // plays jump or land SFX
-    void PlayJumpOrLand(bool f_jumpOrLand)
+    void PlayJumpOrLand(float f_jumpOrLand)
     {
         FMOD.Studio.EventInstance jumpLand = FMODUnity.RuntimeManager.CreateInstance(JumpEventPath); // load jump event as variable
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(jumpLand, bodyTransform, GetComponent<Rigidbody>()); // attach jump event to body (location)
         jumpLand.setParameterByName(materialParameterName, f_materialValue); // set FMOD parameter to the material value
-        jumpLand.setParameterByName(jumpOrLandParameterName, f_jumpOrLand ? 0f : 1f); // same as above. bool -> IF FALSE: 0, IF TRUE: 1
+        jumpLand.setParameterByName(jumpOrLandParameterName, f_jumpOrLand); // same as above. bool -> IF FALSE: 0, IF TRUE: 1
+        //jumpLand.setParameterByName(jumpOrLandParameterName, f_jumpOrLand ? 0f : 1f); // bool -> IF FALSE: 0, IF TRUE: 1
         jumpLand.start(); // plays instance
         jumpLand.release(); // destroys instance after finished playing
 

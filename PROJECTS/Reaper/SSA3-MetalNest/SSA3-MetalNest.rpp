@@ -1,13 +1,13 @@
-<REAPER_PROJECT 0.1 "6.64/win64" 1696766591
+<REAPER_PROJECT 0.1 "6.64/win64" 1696828397
   <NOTES 0 2
   >
-  UNDO_FTS 1696766558
+  UNDO_FTS 1696828397
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
   POOLEDENVATTACH 0
-  MIXERUIFLAGS 11 48
+  MIXERUIFLAGS 11 305
   PEAKGAIN 1
   FEEDBACK 0
   PANLAW 1
@@ -17,9 +17,9 @@
   TIMEMODE 0 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 948.82457878189996
-  ZOOM 68.0905632555821 63602 0
-  VZOOMEX 4 1263
+  CURSOR 941.58850056610606
+  ZOOM 8.75584185134299 7622 0
+  VZOOMEX 4 1245
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -62,8 +62,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 943.9694213060842 949.39734537590846
-  SELECTION2 943.9694213060842 949.39734537590846
+  SELECTION 898.59802765354232 943.9694213060842
+  SELECTION2 898.59802765354232 943.9694213060842
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -293,16 +293,16 @@
     TRACK {6A34501E-378D-4033-98BA-FF44B45BD85A}
   >
   MARKER 29 898.45561239742176 "" 1 0 1 R
-  MARKER 38 898.45561239742176 synthdeep 1 0 1 R {9D537707-7317-4B87-9A9E-9D3055691F38}
+  MARKER 38 898.59802765354232 synthdeep 9 0 1 R {9D537707-7317-4B87-9A9E-9D3055691F38}
   <REGIONRENDER 38
     TRACK {1E2F277C-B539-4695-9A19-198B96E5FD1F}
   >
-  MARKER 38 943.9694213060842 "" 1 0 1 R
-  MARKER 39 943.9694213060842 synthwind 9 0 1 R {136C156D-A77F-402F-98B4-F09C3B64F253}
+  MARKER 38 943.9694213060842 "" 9 0 1 R
+  MARKER 39 943.9694213060842 synthwind 1 0 1 R {136C156D-A77F-402F-98B4-F09C3B64F253}
   <REGIONRENDER 39
     TRACK {2D918146-1217-42D8-9483-44FF76EF0283}
   >
-  MARKER 39 949.39734537590846 "" 9 0 1 R
+  MARKER 39 949.39734537590846 "" 1 0 1 R
   <PROJBAY
     ITEM 1 "H:\HDD Documents\FL Studio\Content\Samples\[ My Field Recordings\ND_23-08-16_010 fridge freezer hum buzz ambience noise.wav" "ND_23-08-16_010 fridge freezer hum buzz ambience noise.wav"
     ITEM 1 "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg" 328013__pfranzen__irritating-flourescent-light-hum-buzz-electronic.ogg
@@ -319,7 +319,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 2 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -343,7 +343,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -394,7 +394,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -434,7 +434,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -856,7 +856,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1276,7 +1276,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -1373,7 +1373,7 @@
       CHANMODE 0
       GUID {D2DD6CD0-B4C5-40FA-A1A0-EF9447471F0E}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -1495,7 +1495,7 @@
       CHANMODE 0
       GUID {8550E803-F0E1-4FD4-8E31-5E9711AA7394}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\FOOTSTEP - Metal Grill Walk Barefoot Male - 13 reversed 001.wav"
+        FILE "Audio\FOOTSTEP - Metal Grill Walk Barefoot Male - 13 reversed 001.wav"
       >
     >
     <ITEM
@@ -1642,7 +1642,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -2086,7 +2086,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3138,7 +3138,7 @@
     PLAYOFFS 0 1
     ISBUS 2 -2
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3185,7 +3185,7 @@
       CHANMODE 0
       GUID {BD49E198-FDC2-49B1-8C82-555BF115C3F4}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 127 214 986 637
@@ -3231,7 +3231,7 @@
       CHANMODE 0
       GUID {F1DC43CD-A726-4A6D-867A-3DE27F89941F}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -3277,7 +3277,7 @@
       CHANMODE 0
       GUID {DF61E7CD-A91B-4E68-858B-B1052D7FA707}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -3323,7 +3323,7 @@
       CHANMODE 0
       GUID {FE4A8E9B-C197-4262-B5BF-5C4C97CF992E}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -3369,7 +3369,7 @@
       CHANMODE 0
       GUID {0FC542CF-C221-430E-BC8A-0F8EDF1539C6}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -3415,7 +3415,7 @@
       CHANMODE 0
       GUID {1B88DE16-2C51-43ED-81A9-4D8EC0FFCFAE}
       <SOURCE WAVE
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
+        FILE "Audio\SSA3-MetalNest_stems_452421__sagamusix__metal-stairs-footsteps-reverberate-001.wav"
       >
       <TAKEFX
         WNDRECT 24 52 655 408
@@ -3454,7 +3454,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3478,7 +3478,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3508,7 +3508,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3546,7 +3546,7 @@
       CHANMODE 0
       GUID {C6BEBE5D-81BA-40C2-84CC-39528610AE82}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects/venthum_REC-230918_1834.rpp"
+        FILE "Audio\subprojects/venthum_REC-230918_1834.rpp"
       >
     >
     <ITEM
@@ -3569,7 +3569,7 @@
       CHANMODE 0
       GUID {EDA0D284-EF89-4797-876F-D23E69383220}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects/venthum_REC-230918_1834.rpp"
+        FILE "Audio\subprojects/venthum_REC-230918_1834.rpp"
       >
     >
   >
@@ -3584,7 +3584,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3616,7 +3616,7 @@
       CHANMODE 0
       GUID {FE01AA90-D1FF-4842-9AEC-2E2F056BDA9A}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+        FILE "Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
       >
     >
     <ITEM
@@ -3639,7 +3639,7 @@
       CHANMODE 0
       GUID {18A777ED-99CF-4C2E-9B2D-717242B65DE9}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
+        FILE "Audio\452421__sagamusix__metal-stairs-footsteps-reverberate - stem_REC-230919_2110.rpp"
       >
     >
   >
@@ -3838,7 +3838,7 @@
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3862,7 +3862,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
@@ -3894,7 +3894,7 @@
       CHANMODE 0
       GUID {B510BE2B-0A14-45EA-9841-CF3DF4BDFE4E}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
+        FILE "Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
       >
     >
     <ITEM
@@ -3917,7 +3917,7 @@
       CHANMODE 0
       GUID {13D98F10-E740-4771-81DB-E32FF0523642}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
+        FILE "Audio\subprojects\electricbuzz_REC-230918_1928.rpp"
       >
     >
   >
@@ -3932,7 +3932,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -3970,7 +3970,7 @@
       CHANMODE 0
       GUID {C1B3B355-6151-4BCC-B960-340F3B7C76A3}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-230926_2238.rpp"
+        FILE "Audio\REC-230926_2238.rpp"
       >
     >
     <ITEM
@@ -3992,7 +3992,7 @@
       CHANMODE 0
       GUID {CDF59989-01B9-4B26-B86F-3EF47F358CA7}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-230926_2238.rpp"
+        FILE "Audio\REC-230926_2238.rpp"
       >
     >
   >
@@ -4007,7 +4007,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -4039,7 +4039,7 @@
       CHANMODE 0
       GUID {EDEC6F54-0B3A-46C3-9830-CD452454617A}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-230926_2227.rpp"
+        FILE "Audio\REC-230926_2227.rpp"
       >
     >
     <ITEM
@@ -4061,7 +4061,7 @@
       CHANMODE 0
       GUID {2DA5E919-1776-452C-8ADF-34CF6E0E4B62}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-230926_2227.rpp"
+        FILE "Audio\REC-230926_2227.rpp"
       >
     >
   >
@@ -4076,7 +4076,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -4214,7 +4214,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -4671,7 +4671,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -4819,7 +4819,7 @@
       CHANMODE 0
       GUID {70710EBE-59C1-4846-95E6-5DCFCFFAC182}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-231002_1849.rpp"
+        FILE "Audio\REC-231002_1849.rpp"
       >
     >
     <ITEM
@@ -4841,7 +4841,7 @@
       CHANMODE 0
       GUID {A274995E-011D-41EB-B70D-229418A6A35C}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-231002_1849.rpp"
+        FILE "Audio\REC-231002_1849.rpp"
       >
     >
   >
@@ -4856,7 +4856,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -4912,7 +4912,7 @@
       CHANMODE 0
       GUID {276B0DF4-7F7A-47C6-919D-D6D088122C53}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-231002_1636.rpp"
+        FILE "Audio\REC-231002_1636.rpp"
       >
     >
     <ITEM
@@ -4934,7 +4934,7 @@
       CHANMODE 0
       GUID {71D7AA11-E35F-44EC-B97B-2E6AE6D179FC}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\REC-231002_1636.rpp"
+        FILE "Audio\REC-231002_1636.rpp"
       >
     >
   >
@@ -4949,7 +4949,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5018,7 +5018,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5093,7 +5093,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5186,7 +5186,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5233,7 +5233,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5304,7 +5304,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5393,7 +5393,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5425,7 +5425,7 @@
       CHANMODE 0
       GUID {F95BC10A-2117-4861-80BD-C043752224D4}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\LV-HTIS Beeps Simple 03_REC-231002_1808.rpp"
+        FILE "Audio\LV-HTIS Beeps Simple 03_REC-231002_1808.rpp"
       >
     >
   >
@@ -5440,7 +5440,7 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
@@ -5468,7 +5468,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1.1 0 3.199896 1 1 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {644CB408-0D3D-45DC-8D89-0BB0DE97FCDF}
       IID 74
       NAME deepdrone.rpp
@@ -5478,7 +5478,7 @@
       CHANMODE 0
       GUID {0B7A4AB2-8193-401F-A861-66E6F333BCA6}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\deepdrone.rpp"
+        FILE "Audio\subprojects\deepdrone.rpp"
       >
     >
     <ITEM
@@ -5490,7 +5490,7 @@
       FADEIN 1.1 0 3.199896 1 1 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D65B4378-CD66-43FF-91D9-8863F8074184}
       IID 75
       NAME deepdrone.rpp
@@ -5500,7 +5500,7 @@
       CHANMODE 0
       GUID {4D5E138C-9F57-4F3E-9DD4-1746DF03A782}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\deepdrone.rpp"
+        FILE "Audio\subprojects\deepdrone.rpp"
       >
     >
   >
@@ -5515,9 +5515,9 @@
     PLAYOFFS 0 1
     ISBUS 2 -2
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
-    REC 1 4096 1 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 4096 1 0 0 0 0 0
     AUTO_RECARM 1
     VU 2
     TRACKHEIGHT 0 0 0 0 -1 0
@@ -5537,7 +5537,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1.1 0.001 0.5494 1 1 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {7FFDA6F0-7476-44E8-BAA6-E39DE9228005}
       IID 73
       NAME synthwind.rpp
@@ -5547,7 +5547,7 @@
       CHANMODE 0
       GUID {B52B8BA8-0D2B-4EB6-90EF-257FD96FADD7}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\synthwind.rpp"
+        FILE "Audio\subprojects\synthwind.rpp"
       >
     >
     <ITEM
@@ -5559,7 +5559,7 @@
       FADEIN 1.1 0.001 0.5494 1 1 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {92FC6A83-97EA-4C1A-BD4D-48AC5B02C1EB}
       IID 73
       NAME synthwind.rpp
@@ -5569,7 +5569,7 @@
       CHANMODE 0
       GUID {2E3FA5C8-C986-4576-AF97-6A6BE0F4013F}
       <SOURCE RPP_PROJECT
-        FILE "E:\SSA3\RMIT-SSA3_MetalNest\PROJECTS\Reaper\SSA3-MetalNest\Audio\subprojects\synthwind.rpp"
+        FILE "Audio\subprojects\synthwind.rpp"
       >
     >
   >

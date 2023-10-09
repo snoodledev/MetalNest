@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{667f8f0e-ef18-46c6-ba90-b2f9c9df2fda}">
 		<property name="assetPath">
-			<value>amb_mid_beeps - Trimmed.wav</value>
+			<value>amb_mid_beepsingle.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

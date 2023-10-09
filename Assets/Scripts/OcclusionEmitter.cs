@@ -36,11 +36,31 @@ public class OcclusionEmitter : MonoBehaviour
     [SerializeField][Range(0f, 3f)] private float pitch = 0f;
     //[SerializeField] private float MinDistance = 1;
 
+    [SerializeField] private bool persistentDebug = false;
+
+    //public bool dopplerEnabled = true;
+    //private Vector3 objPosLastFrame = Vector3.zero;
+    //private Vector3 objVelocity = Vector3.zero; 
+    //private Vector3 playerPosLastFrame = Vector3.zero;
+    //private Vector3 playerVelocity = Vector3.zero;
+
     void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
-        //Gizmos.DrawWireSphere(transform.position, MinDistance);
-        Gizmos.DrawWireSphere(transform.position, MaxDistance);
+        if (!persistentDebug)
+        {
+            Gizmos.color = Color.yellow;
+            //Gizmos.DrawWireSphere(transform.position, MinDistance);
+            Gizmos.DrawWireSphere(transform.position, MaxDistance);
+        }
+    }
+    void OnDrawGizmos()
+    {
+        if (persistentDebug)
+        {
+            Gizmos.color = Color.yellow;
+            //Gizmos.DrawWireSphere(transform.position, MinDistance);
+            Gizmos.DrawWireSphere(transform.position, MaxDistance);
+        }
     }
 
     private void Start()
