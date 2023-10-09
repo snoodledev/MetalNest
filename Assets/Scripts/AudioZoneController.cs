@@ -6,6 +6,5 @@ using FMOD.Studio;
 
 public class AudioZoneController : MonoBehaviour
 {
-    public int reverbSnapshot;
-
+    [HideInInspector] public int reverbSnapshot;
 }

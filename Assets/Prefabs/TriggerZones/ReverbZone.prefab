@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4807194315898883045}
   - component: {fileID: 5467668540786933310}
   - component: {fileID: 6179069653449207650}
+  - component: {fileID: 2911394011685154573}
   m_Layer: 0
   m_Name: ReverbZone
   m_TagString: Untagged
@@ -76,3 +77,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 40, y: 40, z: 40}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2911394011685154573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848451448008060828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1601a5dc6bfda104badd2eba0c0e94f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogEnabled: 1
+  fogDistanceMin: 0.1
+  fogDistanceMax: 250
+  falloffCurve: 0.87
+  fogColor: {r: 0, g: 0, b: 0, a: 1}
+  fogLerpSpeed: 100
+  lightningEnabled: 0
+  fogLightningColor: {r: 0.29, g: 0.29, b: 0.29, a: 1}

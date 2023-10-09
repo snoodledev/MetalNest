@@ -136,9 +136,6 @@
 		<property name="length">
 			<value>23.370312500000001</value>
 		</property>
-		<property name="volume">
-			<value>-4</value>
-		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -259,7 +256,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>24</value>
+			<value>23.5247536</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{0e1d1568-383e-4be8-8538-3389b9047eb7}">

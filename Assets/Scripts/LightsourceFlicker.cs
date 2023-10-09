@@ -112,6 +112,7 @@ public class LightsourceFlicker : MonoBehaviour
 
     public enum LightMode
     {
+        None,
         Flicker, 
         Pulse
     }

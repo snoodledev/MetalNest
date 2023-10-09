@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BillboardObject : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     
     private void Start()
     {

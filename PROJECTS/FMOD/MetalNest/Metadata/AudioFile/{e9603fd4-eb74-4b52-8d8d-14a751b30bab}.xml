@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e9603fd4-eb74-4b52-8d8d-14a751b30bab}">
+		<property name="assetPath">
+			<value>sfx_player_footstep_fence-5.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.97841666666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd5f95b4-b279-4c71-849b-e9cd5458bf64}</destination>
+		</relationship>
+	</object>
+</objects>

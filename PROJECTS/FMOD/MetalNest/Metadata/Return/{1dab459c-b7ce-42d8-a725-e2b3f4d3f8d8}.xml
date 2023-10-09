@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{1dab459c-b7ce-42d8-a725-e2b3f4d3f8d8}">
-		<property name="note" />
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>
@@ -21,6 +20,7 @@
 	<object class="MixerBusEffectChain" id="{cd782fe1-cfbb-4441-85aa-2abf7de554ba}">
 		<relationship name="effects">
 			<destination>{97a5af84-0011-4d6b-9204-6beed09f2972}</destination>
+			<destination>{086ed27e-a625-417c-aa77-d9eeb3f87432}</destination>
 			<destination>{255a9f49-50ba-4be1-9531-72e7d2e08cdf}</destination>
 		</relationship>
 	</object>
@@ -34,6 +34,38 @@
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{086ed27e-a625-417c-aa77-d9eeb3f87432}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeB">
+			<value>8</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>751.130615</value>
+		</property>
+		<property name="frequencyB">
+			<value>341.809235</value>
+		</property>
+		<property name="frequencyC">
+			<value>69.3301544</value>
+		</property>
+		<property name="qualityA">
+			<value>0.183724135</value>
+		</property>
+		<property name="qualityB">
+			<value>5.20000029</value>
+		</property>
+		<property name="gainB">
+			<value>25.8620701</value>
+		</property>
+		<property name="gainC">
+			<value>-17.0689659</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{255a9f49-50ba-4be1-9531-72e7d2e08cdf}" />

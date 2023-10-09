@@ -134,7 +134,7 @@
 			<value>23.370312500000001</value>
 		</property>
 		<property name="volume">
-			<value>-4</value>
+			<value>-2.5</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -144,6 +144,7 @@
 		</relationship>
 		<relationship name="modulators">
 			<destination>{2ad135ba-0bd6-4b1c-886d-5ee0f7141c82}</destination>
+			<destination>{c4721bb2-41bd-405f-ba21-b1346530f16a}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{1174772f-9194-4cc5-877a-a62e43fb29db}</destination>
@@ -201,6 +202,11 @@
 			<value>100</value>
 		</property>
 	</object>
+	<object class="RandomizerModulator" id="{c4721bb2-41bd-405f-ba21-b1346530f16a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{fdbbbb45-564c-444a-a5f6-db1b720457b2}">
 		<relationship name="effects">
 			<destination>{5ba15233-1732-4664-8fc9-6471867267aa}</destination>
@@ -239,10 +245,10 @@
 	</object>
 	<object class="AutomationPoint" id="{96b4dea0-8611-4959-99bd-39db08eef76f}">
 		<property name="position">
-			<value>0.0070621468926553672</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-24</value>
+			<value>-0.915466309</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1b0b27cf-e3a1-4156-9d04-37685b6a979d}">
@@ -250,7 +256,7 @@
 			<value>0.99293785310734461</value>
 		</property>
 		<property name="value">
-			<value>24</value>
+			<value>0.884531021</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{3ada139f-3cc1-43cf-966a-871d7d6c3481}">

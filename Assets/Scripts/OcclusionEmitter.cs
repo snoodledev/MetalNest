@@ -31,21 +31,27 @@ public class OcclusionEmitter : MonoBehaviour
     private float ListenerDistance;
     private float lineCastHitCount = 0f;
     private Color colour;
-    [SerializeField] private float MaxDistance = 20;
-    [SerializeField][Range(0f, 3f)] private float pitch = 1f;
+    /*[SerializeField] */private float MaxDistance = 20;
+    [SerializeField] [Range(0f, 1.2f)] private float volume = 0f;
+    [SerializeField][Range(0f, 3f)] private float pitch = 0f;
     //[SerializeField] private float MinDistance = 1;
 
-    //void OnDrawGizmosSelected()
-    //{
-    //    Gizmos.color = Color.yellow;
-    //    Gizmos.DrawWireSphere(transform.position, MinDistance);
-    //    Gizmos.DrawWireSphere(transform.position, MaxDistance);
-    //}
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        //Gizmos.DrawWireSphere(transform.position, MinDistance);
+        Gizmos.DrawWireSphere(transform.position, MaxDistance);
+    }
 
     private void Start()
     {
         Audio = RuntimeManager.CreateInstance(Event);
         RuntimeManager.AttachInstanceToGameObject(Audio, GetComponent<Transform>(), GetComponent<Rigidbody>());
+        //Audio.setProperty(EVENT_PROPERTY.MAXIMUM_DISTANCE, MaxDistance);
+        if (volume != 0f)
+            Audio.setVolume(volume);
+        if (pitch != 0f)
+            Audio.setPitch(pitch);
         Audio.start();
         Audio.release();
 
@@ -53,7 +59,6 @@ public class OcclusionEmitter : MonoBehaviour
         //AudioDes.getMinMaxDistance(out float _, out float MaxDistanceTemp);
         //MaxDistance = MaxDistanceTemp;
         Listener = FindObjectOfType<StudioListener>();
-        Audio.setProperty(EVENT_PROPERTY.MAXIMUM_DISTANCE, MaxDistance);
     }
 
     private void FixedUpdate()
@@ -68,7 +73,6 @@ public class OcclusionEmitter : MonoBehaviour
         }
 
         lineCastHitCount = 0f;
-        Audio.setPitch(pitch);
     }
 
     private void OccludeBetween(Vector3 sound, Vector3 listener)

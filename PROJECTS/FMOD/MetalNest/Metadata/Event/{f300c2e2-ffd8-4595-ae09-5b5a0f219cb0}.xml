@@ -66,13 +66,16 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{79c282ae-a2be-4438-a0f4-5304f26a3bc4}">
 		<property name="maxVoices">
-			<value>8</value>
+			<value>32</value>
+		</property>
+		<property name="voiceStealing">
+			<value>2</value>
 		</property>
 		<property name="dopplerEnabled">
 			<value>true</value>
 		</property>
 		<property name="dopplerScale">
-			<value>28</value>
+			<value>205</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{89e308e7-0074-4de8-a34f-36d58d69b950}" />
@@ -328,7 +331,7 @@
 			<value>22000</value>
 		</property>
 		<property name="curveShape">
-			<value>0.018959539</value>
+			<value>-0.0186879467</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{83788102-1cee-4b05-99b0-36969f01502d}">
@@ -336,7 +339,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>450</value>
+			<value>220</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6f8c0d08-d17d-4e41-9d14-11533e9b4a18}">

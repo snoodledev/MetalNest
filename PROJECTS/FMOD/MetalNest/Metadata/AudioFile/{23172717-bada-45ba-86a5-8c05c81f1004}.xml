@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{23172717-bada-45ba-86a5-8c05c81f1004}">
+		<property name="assetPath">
+			<value>amb_mid_beeps.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>20.018479166666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd5f95b4-b279-4c71-849b-e9cd5458bf64}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,461 @@
+<REAPER_PROJECT 0.1 "6.64/win64" 1696225486
+  <NOTES 0 2
+  >
+  UNDO_FTS 1696225460
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 5246 8 1 8 1 0 0 0
+  TIMEMODE 0 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 64.25635932413716
+  ZOOM 16.20073111750295 0 0
+  VZOOMEX 2 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Audio" ""
+  <RECORD_CFG
+    ZXZhdxgAAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 48000
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 8
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  MISCOPTS 1
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    dmdnbwAAAD8AgAAAAIAAAAAgAAAAAAEAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 -1 -1 -1 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {ED99BBF4-1D12-4B78-A45B-DFCCF8F61B1C}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {24ABFEEA-D6B8-4945-B2DB-D3A2B55713AD}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 =START 0 0 1 R {343A0E6B-D98F-4C45-AAEA-34B22D768F3C}
+  MARKER 2 65.11580011944834 =END 0 0 1 R {4F3690A7-C0AB-4C63-A2EF-7ADABBAD8968}
+  <PROJBAY
+  >
+  <TRACK {9768EE53-0EA0-4451-9F40-B4110EE2C3B0}
+    NAME Subproject
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 1 4096 1 0 0 0 0 0
+    AUTO_RECARM 1
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9768EE53-0EA0-4451-9F40-B4110EE2C3B0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 6.10913832859068
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.001 0 1 0 0 0
+      FADEOUT 1.1 0.001 1.903572 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5FEAF434-D19A-48D5-9289-1EAD5EDF7063}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 60.5380140854686
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31E5CEB8-81E8-49B9-8598-9EB0DCDADA72}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.20556624069719
+      SNAPOFFS 0
+      LENGTH 7.03878981337656
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 1.903572 1 1 0 0
+      FADEOUT 1.1 0.001 3.535213 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BA00DFFC-57CB-4CD4-9D61-FC2F9C62FA45}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 68.01949508207622
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4EA41C3-EAD6-42E1-8727-B0CB111BAF60}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.70914278846095
+      SNAPOFFS 0
+      LENGTH 20.65418126460814
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 3.535213 1 1 0 0
+      FADEOUT 1.1 0.001 1.891676 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {56F1CBC4-456D-4926-A38A-9C50E3F380AB}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 0.977237 0 1 -1
+      SOFFS 23.57909694245427
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {64D67F03-413D-4EB6-A2D7-DA4E8755AE56}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 26.47164834744277
+      SNAPOFFS 0
+      LENGTH 2.28854397027817
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 1.891676 1 1 0 0
+      FADEOUT 1.1 0.001 0.396868 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B1504E83-2A66-486F-B400-D980769E669A}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 75.30176504622966
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {61B9810C-1D7A-41D8-99FA-AA80E99E3E46}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.36332405306909
+      SNAPOFFS 0
+      LENGTH 6.94001339983696
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 0.396868 1 1 0 0
+      FADEOUT 1.1 0.001 3.858982 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2FAB4936-B055-4534-99E8-085AF4542B76}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 78.00305201174626
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E9B05359-66D2-4ED1-AFEF-810498FB5E49}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 31.4443549907193
+      SNAPOFFS 0
+      LENGTH 11.68601800549549
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 3.858982 1 1 0 0
+      FADEOUT 1 5.744759 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {29BB6AC3-7ECC-4109-8435-3F0B36230C06}
+      IID 229
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 85.09043815763914
+      PLAYRATE 0.9999999999998 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5F4A2F3-F507-4520-811E-B11304B04FC1}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.13037299621479
+      SNAPOFFS 0
+      LENGTH 11.9612102126604
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 9.69673 0 1 0 0 0
+      FADEOUT 1.1 2.26448 2.26448 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9D785AA-EE7E-499C-A07E-13099D389D14}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 141.11549253227918
+      PLAYRATE 0.99999999999984 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CF93514-35C6-4E74-98E1-3A3D45A7F5E0}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 52.40251294080716
+      SNAPOFFS 0
+      LENGTH 7.03878981337618
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 1.845363 1.845363 1 1 0 0
+      FADEOUT 1 5.193427 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {80B93C57-DB2F-46CF-ABF0-1605E033FD59}
+      IID 252
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 0.609537 0 1 -1
+      SOFFS 68.01949508207622
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6C944DA6-12DC-444C-A3B9-8F26DD4057A8}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+  >
+  <TRACK {05EC2871-1A75-41DA-9705-6EFCCC27E5B9}
+    NAME ""
+    PEAKCOL 25583256
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 4096 1 0 0 0 0 0
+    AUTO_RECARM 1
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {05EC2871-1A75-41DA-9705-6EFCCC27E5B9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 30.02102732140211
+      SNAPOFFS 0
+      LENGTH 15.86094689532588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 7.747 0 1 0 0 0
+      FADEOUT 1.1 0.001 1.008622 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C96B3147-DA7C-4058-AF24-0E825119BDF9}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 111.23246174852704
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE9CF636-CE21-46BE-8D97-5833115529C0}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 44.87335233557001
+      SNAPOFFS 0
+      LENGTH 5.7009062848102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 1.008622 1 1 0 0
+      FADEOUT 1 3.859075 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DDF38976-B944-4FF3-B64E-E2A22E17CA69}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 128.62826802822588
+      PLAYRATE 0.99999999999982 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F9CE7933-1DBB-47C2-8AC7-A8BC065790C3}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 50.84048042176897
+      SNAPOFFS 0
+      LENGTH 10.09188801614403
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 9.624041 0 1 0 0 0
+      FADEOUT 1.1 0.001 0.332018 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {806421C3-C5E3-4565-A97B-34D7FBB4B484}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 154.03596172945504
+      PLAYRATE 0.99999999999984 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A9CFFEC2-C37B-4016-BCDA-C4C5CE2EAFC9}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 60.60035005048967
+      SNAPOFFS 0
+      LENGTH 1.37234266801715
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 0.332018 1 1 0 0
+      FADEOUT 1.1 0.001 0.796844 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F060BBB2-B2E8-47E6-B3B7-B2DD8F086FA7}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 164.50413725134524
+      PLAYRATE 0.99999999999963 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCE2BBC8-63F7-42B5-A32D-7613F54A9C66}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+    <ITEM
+      POSITION 61.17584858869036
+      SNAPOFFS 0
+      LENGTH 3.93995153075797
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.001 0.796844 1 1 0 0
+      FADEOUT 1 0.001 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F9A40AA-B889-4ABE-B100-D2101BAFDFE5}
+      IID 246
+      NAME 265538__refrain__howling-wind-in-resonant-space-ambience.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 166.93893875911692
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E6289055-D67A-46C4-AE8B-ADE1B3AF1DCD}
+      <SOURCE WAVE
+        FILE "H:\HDD Documents\FL Studio\Content\Samples\FREESOUND\265538__refrain__howling-wind-in-resonant-space-ambience.wav"
+      >
+    >
+  >
+  <TRACK {EF8A8899-DDDB-45E7-AF39-30271B80A60B}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 4096 1 0 0 0 0 0
+    AUTO_RECARM 1
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EF8A8899-DDDB-45E7-AF39-30271B80A60B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <EXTENSIONS
+  >
+>

@@ -74,6 +74,7 @@
 		<relationship name="modules">
 			<destination>{37c60678-f390-477b-b913-19c7b8b17603}</destination>
 			<destination>{3b7a5c28-e57b-434e-8b58-ea02dcb9f2cc}</destination>
+			<destination>{da469a85-33e8-4790-a814-012df617bfff}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{91bd5c76-8515-46ea-b322-b67281bb8b21}</destination>
@@ -86,6 +87,7 @@
 		<relationship name="modules">
 			<destination>{eb7994ed-4aff-4c1e-a19b-57d766cd8e88}</destination>
 			<destination>{014dd2e0-3aa5-46ce-ada6-ba166f35bdfd}</destination>
+			<destination>{af747fd4-ddb6-4cf4-aa0d-dcff905e64b8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{57efd03c-392b-42ef-86d9-1f3948cfe9a3}</destination>
@@ -98,6 +100,8 @@
 			<destination>{3b7a5c28-e57b-434e-8b58-ea02dcb9f2cc}</destination>
 			<destination>{eb7994ed-4aff-4c1e-a19b-57d766cd8e88}</destination>
 			<destination>{014dd2e0-3aa5-46ce-ada6-ba166f35bdfd}</destination>
+			<destination>{da469a85-33e8-4790-a814-012df617bfff}</destination>
+			<destination>{af747fd4-ddb6-4cf4-aa0d-dcff905e64b8}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{43749dc5-0c66-4f20-ab4a-6fc4704702e7}</destination>
@@ -146,6 +150,14 @@
 			<destination>{f1237567-3754-48f1-bb80-b3e928c58f79}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{da469a85-33e8-4790-a814-012df617bfff}">
+		<property name="start">
+			<value>3</value>
+		</property>
+		<relationship name="event">
+			<destination>{904c25d6-f2f0-4dca-8e4a-0e1485d1adca}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{91bd5c76-8515-46ea-b322-b67281bb8b21}">
 		<property name="name">
 			<value>Walk</value>
@@ -182,6 +194,15 @@
 		</property>
 		<relationship name="event">
 			<destination>{10426d57-a36d-4b57-91c8-2212ad912c60}</destination>
+		</relationship>
+	</object>
+	<object class="EventSound" id="{af747fd4-ddb6-4cf4-aa0d-dcff905e64b8}">
+		<property name="start">
+			<value>3</value>
+		</property>
+		<property name="name" />
+		<relationship name="event">
+			<destination>{41c110c1-f030-45fd-986c-66b73d9d4d77}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{57efd03c-392b-42ef-86d9-1f3948cfe9a3}">

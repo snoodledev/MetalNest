@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 5240402981458596491}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,8 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461cd396e3fc7cc4eb9c92bde05c1b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Character: {fileID: 5273332205261916092}
-  CharacterCamera: {fileID: 5272775344155616913}
+  character: {fileID: 5273332205261916092}
+  characterCamera: {fileID: 5272775344155616913}
 --- !u!114 &5240402981458596491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,9 +169,10 @@ GameObject:
   - component: {fileID: 2090771663895098610}
   - component: {fileID: 5241449947528439121}
   - component: {fileID: 5955199492437984472}
+  - component: {fileID: 1733336056692164870}
   m_Layer: 0
   m_Name: PlayerBody
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,14 +265,14 @@ MonoBehaviour:
   CapsuleYOffset: 1
   CapsulePhysicsMaterial: {fileID: 0}
   GroundDetectionExtraDistance: 0
-  MaxStableSlopeAngle: 60
+  MaxStableSlopeAngle: 69.6
   StableGroundLayers:
     serializedVersion: 2
     m_Bits: 4294967295
   DiscreteCollisionEvents: 0
   StepHandling: 1
-  MaxStepHeight: 0.5
-  AllowSteppingWithoutStableGrounding: 0
+  MaxStepHeight: 5
+  AllowSteppingWithoutStableGrounding: 1
   MinRequiredStepDepth: 0.1
   LedgeAndDenivelationHandling: 1
   MaxStableDistanceFromLedge: 0.5
@@ -337,6 +338,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reverbSnapshot: 0
+--- !u!114 &1733336056692164870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241449947528439118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ddcde2c14d7ae409a1ea49c6bf15ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 1
 --- !u!1 &5241459110051762680
 GameObject:
   m_ObjectHideFlags: 0

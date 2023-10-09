@@ -22,7 +22,7 @@
 			<value>None</value>
 			<value>Metal</value>
 			<value>Vent</value>
-			<value>Mesh</value>
+			<value>Fence</value>
 			<value>Concrete</value>
 		</property>
 		<property name="isHeld">

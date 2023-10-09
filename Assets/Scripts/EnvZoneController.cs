@@ -49,30 +49,8 @@ public class EnvZoneController : MonoBehaviour
                     lightningStep = 0;
                 }
 
-                switch (lightningStep)
-                {
-                    case 0:
-                        fogVolume.color.value = Color.Lerp(fogColor, fogLightningColor, Random.Range(0.2f, 0.5f));
-                        lightningStep++;
-                        break;
-                    case 1:
-                        fogVolume.color.value = Color.Lerp(fogColor, fogLightningColor, Random.Range(0.6f, 0.9f));
-                        lightningStep++;
-                        break;
-                    case 2:
-                        fogVolume.color.value = Color.Lerp(fogColor, fogLightningColor, Random.Range(0.2f, 0.5f));
-                        lightningStep++;
-                        break;
-                    case 3:
-                        fogVolume.color.value = Color.Lerp(fogColor, fogLightningColor, Random.Range(0.2f, 0.5f));
-                        lightningStep++;
-                        break;
-                    case 4:
-                        fogVolume.color.value = fogLightningColor;
-                        lightningStep++;
-                        break;
-                    default: break;
-                }
+                fogVolume.color.value = Color.Lerp(fogColor, fogLightningColor, Random.Range(0.6f, 0.9f));
+
 
                 fogVolume.color.value = fogLightningColor;
 

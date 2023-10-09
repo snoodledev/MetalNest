@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Value: 1
   geometry:
     m_OverrideState: 1
-    m_Value: 0.97
+    m_Value: 0.96
     min: 0
     max: 1
   geometryPushbackEnabled:
@@ -215,7 +215,7 @@ MonoBehaviour:
     m_Value: 1
   bakedLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 1
     min: 0
   vertexColorLightingMultiplier:
     m_OverrideState: 1
@@ -247,28 +247,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d335ddfaff71d4493ab520ae36643e, type: 3}
   m_Name: TonemapperVolume
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   contrast:
     m_OverrideState: 1
-    m_Value: 0.59
+    m_Value: 0.529
     min: 0
     max: 1
   shoulder:
     m_OverrideState: 1
-    m_Value: 0.46
+    m_Value: 0.576
     min: 0
     max: 1
   graypointIn:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.18
     min: 0
     max: 1
   graypointOut:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.18
     min: 0
     max: 1
