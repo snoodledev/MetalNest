@@ -75,6 +75,7 @@
 	<object class="GroupTrack" id="{4adb4174-e79e-467b-a4fb-3bf95df63a77}">
 		<relationship name="automationTracks">
 			<destination>{62a6e3ca-ca56-4bb2-bf1a-9fbe9f1474c5}</destination>
+			<destination>{3a31484c-20f5-4ba7-b487-c0d3632fd344}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{eb23ae0d-9a9c-4ad3-a74f-95d76f74969b}</destination>
@@ -102,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{84127837-9b31-4e53-aa46-649cb903ed07}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{76d06b2e-5729-4f3a-bc5a-c21dce5ab92e}</destination>
 		</relationship>
@@ -121,6 +125,11 @@
 	<object class="AutomationTrack" id="{62a6e3ca-ca56-4bb2-bf1a-9fbe9f1474c5}">
 		<relationship name="automator">
 			<destination>{08c21a9d-a28b-4fb6-9dd5-d0b0cc15a2e2}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{3a31484c-20f5-4ba7-b487-c0d3632fd344}">
+		<relationship name="automator">
+			<destination>{03f15d96-39c9-494f-8e22-e7d6f3a881ef}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{eb23ae0d-9a9c-4ad3-a74f-95d76f74969b}">
@@ -154,6 +163,9 @@
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
+		<relationship name="automators">
+			<destination>{03f15d96-39c9-494f-8e22-e7d6f3a881ef}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{fdbbbb45-564c-444a-a5f6-db1b720457b2}</destination>
 		</relationship>
@@ -205,6 +217,11 @@
 	<object class="RandomizerModulator" id="{c4721bb2-41bd-405f-ba21-b1346530f16a}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
+		</property>
+	</object>
+	<object class="Automator" id="{03f15d96-39c9-494f-8e22-e7d6f3a881ef}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{fdbbbb45-564c-444a-a5f6-db1b720457b2}">

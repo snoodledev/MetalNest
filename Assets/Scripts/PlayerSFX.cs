@@ -98,7 +98,7 @@ public class PlayerSFX : MonoBehaviour
         if (!prevTouchingGround && isTouchingGround) // if started touching ground this frame (landed)
         {
             MaterialCheck();
-            if (distanceTravelledJump >= landHeavyDistance)
+            if (distanceTravelledJump >= landHeavyDistance) // if airborne distance is long enough
             {
                 PlayJumpOrLand(2f); // play heavy land
             }
