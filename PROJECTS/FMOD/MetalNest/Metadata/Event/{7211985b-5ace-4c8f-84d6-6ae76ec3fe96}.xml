@@ -45,6 +45,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{01265369-9bb3-4372-89d5-1f3d59f35d9a}">
+		<relationship name="automationTracks">
+			<destination>{5c2e9626-a2f2-43e0-a0c3-4b22a83f9180}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f183607b-fa40-420e-b81a-46b2e3fbef0a}</destination>
 		</relationship>
@@ -113,6 +116,11 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{e355d3ec-b5a3-475f-af1b-9da156f00703}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{5c2e9626-a2f2-43e0-a0c3-4b22a83f9180}">
+		<relationship name="automator">
+			<destination>{7db9afdc-61c0-457a-9d32-4ca88adb8e91}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{024a476c-86cb-4089-99d8-5449f7f127fc}">
@@ -264,7 +272,7 @@
 			<value>99.011299435028249</value>
 		</property>
 		<property name="value">
-			<value>0.899999976</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{483cbeed-f0fb-4216-bfb4-9cc111e88600}">
@@ -273,6 +281,9 @@
 		</property>
 		<property name="value">
 			<value>0.899999976</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.0405925028</value>
 		</property>
 	</object>
 </objects>

@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using HauntedPSX.RenderPipelines.PSX.Editor;
-using HauntedPSX.RenderPipelines.PSX.Runtime;
 
 public class LightsourceFlicker : MonoBehaviour
 {
