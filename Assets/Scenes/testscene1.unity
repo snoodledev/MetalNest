@@ -587,6 +587,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2127350841}
     m_Modifications:
+    - target: {fileID: 815498670260637800, guid: 8965e29147b381b42b97b38dd47e155f, type: 3}
+      propertyPath: SoundOcclusionWidening
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 815498670260637800, guid: 8965e29147b381b42b97b38dd47e155f, type: 3}
+      propertyPath: PlayerOcclusionWidening
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5644739595233986920, guid: 8965e29147b381b42b97b38dd47e155f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -868,6 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50ddcde2c14d7ae409a1ea49c6bf15ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnTime: 0.5
 --- !u!1 &330902247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,8 +1673,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   fadeSpeed: 0.3
-  MaxDistance: 20
+  volume: 0
   pitch: 1
+  persistentDebug: 0
 --- !u!4 &749429291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2676321729697662011, guid: 6fb954b75838aa749ab046917e9cc8e1, type: 3}

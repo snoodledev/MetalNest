@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Checkpoint
   - Kill
+  - Ending
   layers:
   - Default
   - TransparentFX

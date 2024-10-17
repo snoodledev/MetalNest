@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using KinematicCharacterController;
+using UnityEngine.SceneManagement;
 
 public class CheckpointManager : MonoBehaviour
 {
@@ -22,12 +23,17 @@ public class CheckpointManager : MonoBehaviour
             if (c.gameObject.tag == "Kill")
             {
                 StartCoroutine("TimedRespawn");
-                //Debug.Log("KILL, respawning at " + respawnPos);
+                Debug.Log("Player died, respawning at " + respawnPos);
             }
             else if (c.gameObject.tag == "Checkpoint")
             {
                 Checkpoint(c);
-                //Debug.Log("Spawn set to " + c.gameObject.transform.position);
+                Debug.Log("Spawn set to " + c.gameObject.transform.position);
+            }
+            else if (c.gameObject.tag == "Ending")
+            {
+                Debug.Log("Game complete, loading end scene...");
+                SceneManager.LoadScene("MENU");
             }
         }
     }

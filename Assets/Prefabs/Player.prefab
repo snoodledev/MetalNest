@@ -112,6 +112,7 @@ MonoBehaviour:
   jumpOrLandParameterName: JumpLand
   stepDistance: 2.5
   runStepDistance: 6
+  landHeavyDistance: 20
   rayDistance: 1.2
   jumpInputName: Jump
   materialTypes:
@@ -121,7 +122,6 @@ MonoBehaviour:
   - Mesh
   - Concrete
   defaultMaterialValue: 0
-  isRunning: 0
   f_materialValue: 0
 --- !u!1 &5240615754990452536
 GameObject:
@@ -489,14 +489,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5241983446481748865}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0013090889, w: 0.9999992}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5706940071442166398}
   m_Father: {fileID: 5240402981458596488}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.15}
 --- !u!20 &5259684753794024181
 Camera:
   m_ObjectHideFlags: 0
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.09000003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -632,23 +632,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.68596095
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.72763836
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -93.378
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5df5afacc68455541944aed2c6ebcec6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

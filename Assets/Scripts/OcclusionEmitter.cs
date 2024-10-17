@@ -95,6 +95,12 @@ public class OcclusionEmitter : MonoBehaviour
         lineCastHitCount = 0f;
     }
 
+    private void OnDestroy()
+    {
+        Audio.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        Audio.release();
+    }
+
     private void OccludeBetween(Vector3 sound, Vector3 listener)
     {
         Vector3 SoundLeft = CalculatePoint(sound, listener, SoundOcclusionWidening, true);
