@@ -64,11 +64,8 @@
 		<property name="isPersistent">
 			<value>true</value>
 		</property>
-		<property name="maxVoices">
-			<value>8</value>
-		</property>
 		<property name="voiceStealing">
-			<value>4</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{40f4b2e2-56c0-46e9-9b9a-ce78fed314a2}" />

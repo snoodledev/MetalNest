@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
 {
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F11))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             //RuntimeManager.GetBus("Ambience").stopAllEvents(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            SceneManager.LoadScene("MENU");
+            SceneManager.LoadSceneAsync("MENU");
         }
     }
 

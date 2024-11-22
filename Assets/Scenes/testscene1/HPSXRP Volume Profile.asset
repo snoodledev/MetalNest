@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d335ddfaff71d4493ab520ae36643e, type: 3}
   m_Name: TonemapperVolume
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   isEnabled:
     m_OverrideState: 1
@@ -259,7 +259,7 @@ MonoBehaviour:
     max: 1
   shoulder:
     m_OverrideState: 1
-    m_Value: 0.68
+    m_Value: 0
     min: 0
     max: 1
   graypointIn:
@@ -273,7 +273,7 @@ MonoBehaviour:
     min: 0
     max: 1
   whitepoint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 10
   crossTalk:
     m_OverrideState: 1

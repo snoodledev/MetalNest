@@ -33,7 +33,7 @@ public class CheckpointManager : MonoBehaviour
             else if (c.gameObject.tag == "Ending")
             {
                 Debug.Log("Game complete, loading end scene...");
-                SceneManager.LoadScene("MENU");
+                SceneManager.LoadScene("END");
             }
         }
     }
